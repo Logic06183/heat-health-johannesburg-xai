@@ -1,0 +1,252 @@
+\begin{thebibliography}{10}
+
+\bibitem{watts2019lancet}
+Watts N, Amann M, Arnell N, et~al.
+\newblock The 2019 report of The Lancet Countdown on health and climate change:
+  ensuring that the health of a child born today is not defined by a changing
+  climate.
+\newblock The Lancet. 2019;394(10211):1836-78.
+
+\bibitem{hoegh2018impacts}
+Hoegh-Guldberg O, Jacob D, Bindi M, et~al.
+\newblock Impacts of 1.5°C global warming on natural and human systems.
+\newblock In: Global warming of 1.5°C. IPCC Special Report. IPCC; 2018. .
+
+\bibitem{campbell2018heatwave}
+Campbell S, Remenyi TA, White CJ, Johnston FH.
+\newblock Heatwave and health impact research: A global review.
+\newblock Health \& Place. 2018;53:210-8.
+
+\bibitem{zhao2021mortality}
+Zhao Q, Guo Y, Ye T, et~al.
+\newblock Global, regional, and national burden of mortality associated with
+  non-optimal ambient temperatures from 2000 to 2019: a three-stage modelling
+  study.
+\newblock The Lancet Planetary Health. 2021;5(7):e415-25.
+
+\bibitem{honda2014heat}
+Honda Y, Kondo M, McGregor G, et~al.
+\newblock Heat-related mortality risk model for climate change impact
+  projection.
+\newblock Environmental Health and Preventive Medicine. 2014;19(1):56-63.
+
+\bibitem{vicedo2021burden}
+Vicedo-Cabrera AM, Scovronick N, Sera F, et~al.
+\newblock The burden of heat-related mortality attributable to recent
+  human-induced climate change.
+\newblock Nature Climate Change. 2021;11(6):492-500.
+
+\bibitem{reid2009mapping}
+Reid CE, O'Neill MS, Gronlund CJ, et~al.
+\newblock Mapping community determinants of heat vulnerability.
+\newblock Environmental Health Perspectives. 2009;117(11):1730-6.
+
+\bibitem{benmarhnia2015vulnerability}
+Benmarhnia T, Deguen S, Kaufman JS, Smargiassi A.
+\newblock Review article: vulnerability to heat-related mortality: a systematic
+  review, meta-analysis, and meta-regression analysis.
+\newblock Epidemiology. 2015;26(6):781-93.
+
+\bibitem{turok2012urbanisation}
+Turok I.
+\newblock Urbanisation and development in South Africa: economic imperatives,
+  spatial distortions and strategic responses.
+\newblock Urbanisation and Development. 2012;1(1):1-19.
+
+\bibitem{wilkinson2000johannesburg}
+Wilkinson P.
+\newblock City profile: Johannesburg.
+\newblock Cities. 2000;17(3):195-203.
+
+\bibitem{rajkomar2019machine}
+Rajkomar A, Dean J, Kohane I.
+\newblock Machine learning in medicine.
+\newblock New England Journal of Medicine. 2019;380(14):1347-58.
+
+\bibitem{beam2018big}
+Beam AL, Kohane IS.
+\newblock Big data and machine learning in health care.
+\newblock JAMA. 2018;319(13):1317-8.
+
+\bibitem{lundberg2017unified}
+Lundberg SM, Lee SI.
+\newblock A unified approach to interpreting model predictions.
+\newblock In: Advances in Neural Information Processing Systems. vol.~30; 2017.
+  p. 4765-74.
+
+\bibitem{hersbach2020era5}
+Hersbach H, Bell B, Berrisford P, et~al.
+\newblock The ERA5 global reanalysis.
+\newblock Quarterly Journal of the Royal Meteorological Society.
+  2020;146(730):1999-2049.
+
+\bibitem{skamarock2008wrf}
+Skamarock WC, Klemp JB, Dudhia J, et~al.
+\newblock A description of the advanced research WRF version 3.
+\newblock National Center for Atmospheric Research; 2008.
+
+\bibitem{wan2015mod11a1}
+Wan Z, Hook S, Hulley G. MOD11A1 MODIS/Terra land surface
+  temperature/emissivity daily L3 global 1km SIN grid V006. NASA EOSDIS Land
+  Processes DAAC; 2015.
+
+\bibitem{saaqis2020}
+{South African Weather Service}. South African Air Quality Information System
+  (SAAQIS); 2020.
+\newblock \url{http://www.saaqis.environment.gov.za}.
+
+\bibitem{gcro2020qol}
+{Gauteng City-Region Observatory}. Quality of Life Survey; 2020.
+\newblock
+  \url{https://www.gcro.ac.za/research/project/quality-of-life-survey/}.
+
+\bibitem{chen2016xgboost}
+Chen T, Guestrin C.
+\newblock XGBoost: A scalable tree boosting system.
+\newblock In: Proceedings of the 22nd ACM SIGKDD International Conference on
+  Knowledge Discovery and Data Mining; 2016. p. 785-94.
+
+\bibitem{breiman2001random}
+Breiman L.
+\newblock Random forests.
+\newblock Machine Learning. 2001;45(1):5-32.
+
+\bibitem{friedman2001greedy}
+Friedman JH.
+\newblock Greedy function approximation: a gradient boosting machine.
+\newblock Annals of Statistics. 2001;29(5):1189-232.
+
+\bibitem{cheuvront2014dehydration}
+Cheuvront SN, Kenefick RW.
+\newblock Dehydration: physiology, assessment, and performance effects.
+\newblock Comprehensive Physiology. 2014;4(1):257-85.
+
+\bibitem{armstrong2012dehydration}
+Armstrong LE, Ganio MS, Casa DJ, et~al.
+\newblock Mild dehydration affects mood in healthy young women.
+\newblock Journal of Nutrition. 2012;142(2):382-8.
+
+\bibitem{kanikowska2015biorhythms}
+Kanikowska D, Sato M, Witowski J.
+\newblock Contribution of daily and seasonal biorhythms to obesity in humans.
+\newblock International Journal of Biometeorology. 2015;59(4):377-84.
+
+\bibitem{carrillo2015heart}
+Carrillo AE, Flouris AD, Herry CL, et~al.
+\newblock Heart rate variability during high ambient heat exposure in healthy
+  adults.
+\newblock European Journal of Applied Physiology. 2015;115(12):2685-92.
+
+\bibitem{obradovich2017nighttime}
+Obradovich N, Migliorini R, Mednick SC, Fowler JH.
+\newblock Nighttime temperature and human sleep loss in a changing climate.
+\newblock Science Advances. 2017;3(5):e1601555.
+
+\bibitem{park2018households}
+Park J, Bangalore M, Hallegatte S, Sandhoefner E.
+\newblock Households and heat: understanding the cooling challenge.
+\newblock World Bank Group; 2018.
+
+\bibitem{westaway2015medicines}
+Westaway K, Frank O, Husband A, et~al.
+\newblock Medicines can affect thermoregulation and accentuate the risk of
+  dehydration and heat-related illness during hot weather.
+\newblock Journal of Clinical Pharmacy and Therapeutics. 2015;40(4):363-7.
+
+\bibitem{tyler2016heat}
+Tyler CJ, Reeve T, Hodges GJ, Cheung SS.
+\newblock The effects of heat adaptation on physiology, perception and
+  exercise-heat stress.
+\newblock Sports Medicine. 2016;46(11):1699-723.
+
+\bibitem{periard2015adaptations}
+Periard JD, Racinais S, Sawka MN.
+\newblock Adaptations and mechanisms of human heat acclimation: applications
+  for competitive athletes and sports.
+\newblock Scandinavian Journal of Medicine \& Science in Sports. 2015;25:20-38.
+
+\bibitem{vardoulakis2014comparative}
+Vardoulakis S, Dear K, Hajek J, et~al.
+\newblock Comparative assessment of the effects of climate change on heat-and
+  cold-related mortality in the United Kingdom and Australia.
+\newblock Environmental Health Perspectives. 2014;122(12):1285-92.
+
+\bibitem{loughnan2010effects}
+Loughnan ME, Nicholls N, Tapper NJ.
+\newblock The effects of summer temperature, age and socioeconomic circumstance
+  on Acute Myocardial Infarction admissions in Melbourne, Australia.
+\newblock International Journal of Health Geographics. 2010;9(1):41.
+
+\bibitem{hajek2019climate}
+Hajek J, Vardoulakis S, Heaviside C, Eggen B.
+\newblock Climate change, heat waves, and cold spells: impacts on health.
+\newblock In: Environmental Health Risks. Springer; 2019. p. 67-78.
+
+\bibitem{malin2018developing}
+Malin SA, Ryder SS.
+\newblock Developing deeply intersectional environmental justice scholarship.
+\newblock Environmental Sociology. 2018;4(1):1-7.
+
+\bibitem{xiang2014health}
+Xiang J, Bi P, Pisaniello D, Hansen A.
+\newblock Health impacts of workplace heat exposure: an epidemiological review.
+\newblock Industrial Health. 2014;52(2):91-101.
+
+\bibitem{bell2018changes}
+Bell JE, Brown CL, Conlon K, et~al.
+\newblock Changes in extreme events and the potential impacts on human health.
+\newblock Journal of the Air \& Waste Management Association.
+  2018;68(4):265-87.
+
+\bibitem{bullard2008toxic}
+Bullard R, Mohai P, Saha R, Chavis B.
+\newblock Toxic wastes and race at twenty: why race still matters after all of
+  these years.
+\newblock Environmental Law. 2008;38:371-411.
+
+\bibitem{islam2017climate}
+Islam N, Winkel J.
+\newblock Climate change and social inequality.
+\newblock UN Department of Economic and Social Affairs; 2017. 152.
+
+\bibitem{charkoudian2016sex}
+Charkoudian N, Stachenfeld NS.
+\newblock Sex hormone effects on autonomic mechanisms of thermoregulation in
+  humans.
+\newblock Autonomic Neuroscience. 2016;196:75-80.
+
+\bibitem{stachenfeld2000estrogen}
+Stachenfeld NS, Silva C, Keefe DL.
+\newblock Estrogen modifies the temperature effects of progesterone.
+\newblock Journal of Applied Physiology. 2000;88(5):1643-9.
+
+\bibitem{havenith2016thermal}
+Havenith G, Fiala D.
+\newblock Thermal indices and thermophysiological modeling for heat stress.
+\newblock Comprehensive Physiology. 2016;6(1):255-302.
+
+\bibitem{notley2019revisiting}
+Notley SR, Lamarche DT, Meade RD, et~al.
+\newblock Revisiting the influence of individual factors on heat exchange
+  during exercise in dry heat using direct calorimetry.
+\newblock Experimental Physiology. 2019;104(7):1038-50.
+
+\bibitem{romeijn2011correlated}
+Romeijn N, Van~Someren EJ.
+\newblock Correlated fluctuations in early-morning melatonin and temperature
+  cycles in humans.
+\newblock Journal of Biological Rhythms. 2011;26(4):339-49.
+
+\bibitem{nakamura2011central}
+Nakamura K.
+\newblock Central circuitries for body temperature regulation and fever.
+\newblock American Journal of Physiology-Regulatory, Integrative and
+  Comparative Physiology. 2011;301(5):R1207-28.
+
+\bibitem{flouris2018workers}
+Flouris AD, Dinas PC, Ioannou LG, et~al.
+\newblock Workers' health and productivity under occupational heat strain: a
+  systematic review and meta-analysis.
+\newblock The Lancet Planetary Health. 2018;2(12):e521-31.
+
+\end{thebibliography}

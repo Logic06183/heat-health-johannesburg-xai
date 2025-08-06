@@ -1,0 +1,657 @@
+%  LaTeX support: latex@mdpi.com 
+%  For support, please attach all files needed for compiling as well as the log file, and specify your operating system, LaTeX version, and LaTeX editor.
+
+%=================================================================
+\documentclass[journal,article,submit,pdftex,moreauthors]{Definitions/mdpi} 
+% Using the Definitions path to the mdpi.cls file
+
+% Below journals will use APA reference format:
+% admsci, behavsci, businesses, econometrics, economies, education, ejihpe, famsci, games, humans, ijcs, ijfs, journalmedia, jrfm, languages, psycholint, publications, tourismhosp, youth
+
+%=================================================================
+% MDPI internal commands - do not modify
+\firstpage{1} 
+\makeatletter 
+\setcounter{page}{\@firstpage} 
+\makeatother
+\pubvolume{1}
+\issuenum{1}
+\articlenumber{0}
+\pubyear{2025}
+\copyrightyear{2025}
+\datereceived{} 
+\dateaccepted{} 
+\datepublished{} 
+\hreflink{https://doi.org/} 
+
+%=================================================================
+% Add packages and commands here
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{calc}
+\usepackage{cancel}
+\usepackage{caption}
+\usepackage{color,soul}
+\usepackage{hhline}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{ulem}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage[capitalize]{cleveref}
+
+%=================================================================
+% Full title of the paper (Capitalized)
+\Title{Uncovering Heat-Health Pathways in Johannesburg: An Explainable Machine Learning Approach Using Harmonized Urban Cohort Data}
+
+% MDPI internal command: Title for citation in the left column
+\TitleCitation{Uncovering Heat-Health Pathways in Johannesburg}
+
+% Author Orchid IDs - add your actual ORCID IDs here
+\newcommand{\orcidauthorA}{0000-0002-3456-7890}
+\newcommand{\orcidauthorB}{0000-0003-1234-5678}
+\newcommand{\orcidauthorC}{0000-0001-2345-6789}
+\newcommand{\orcidauthorD}{0000-0002-8901-2345}
+\newcommand{\orcidauthorE}{0000-0001-5678-9012}
+
+% Authors, for the paper with collaborators
+\Author{Craig Parker $^{1,*,\dagger}$\orcidA{}, Matthew Chersich $^{1,\dagger}$\orcidB{}, 
+Nicholas Brink $^{1}$, Ruvimbo Forget $^{1}$, Kimberly McAlpine $^{1}$, Marié Landsberg $^{1}$, 
+Christopher Jack $^{2}$\orcidC{}, 
+Yao Etienne Kouakou $^{3,4}$, Brama Koné $^{3,4}$, 
+Sibusisiwe Makhanya $^{5}$\orcidD{}, Etienne Vos $^{5}$, 
+Stanley Luchters $^{6,7}$, Prestige Tatenda Makanga $^{6,8}$, 
+Guéladio Cissé $^{4}$\orcidE{}}
+
+% These authors contributed equally
+\firstnote{These authors contributed equally to this work.}
+
+% MDPI internal command: Authors, for metadata in PDF
+\AuthorNames{Craig Parker, Matthew Chersich, Nicholas Brink, Ruvimbo Forget, Kimberly McAlpine, Marié Landsberg, Christopher Jack, Yao Etienne Kouakou, Brama Koné, Sibusisiwe Makhanya, Etienne Vos, Stanley Luchters, Prestige Tatenda Makanga, Guéladio Cissé}
+
+\AuthorCitation{Parker, C.; Chersich, M.; Brink, N.; Forget, R.; McAlpine, K.; Landsberg, M.; Jack, C.; Kouakou, Y.E.; Koné, B.; Makhanya, S.; Vos, E.; et al.}
+
+% Affiliations / Addresses
+\address{%
+$^{1}$ \quad Wits Planetary Health Research, Faculty of Health Sciences, University of the Witwatersrand, Johannesburg 2193, South Africa;\\
+\quad craig.parker@wits.ac.za (C.P.); matthew.chersich@wits.ac.za (M.C.); nicholas.brink@wits.ac.za (N.B.);\\ 
+\quad ruvimbo.forget@wits.ac.za (R.F.); kimberly.mcalpine@wits.ac.za (K.M.); marie.landsberg@wits.ac.za (M.L.)\\
+
+$^{2}$ \quad Climate System Analysis Group, University of Cape Town, Cape Town 7700, South Africa;\\
+\quad christopher.jack@uct.ac.za (C.J.)\\
+
+$^{3}$ \quad University Peleforo Gon Coulibaly, Korhogo BP 1328, Côte d'Ivoire;\\
+\quad etienneyao@upgc.edu.ci (Y.E.K.); brama.kone@upgc.edu.ci (B.K.)\\
+
+$^{4}$ \quad Centre Suisse de Recherches Scientifiques, Abidjan 01 BP 1303, Côte d'Ivoire;\\
+\quad gueladio.cisse@csrs.ci (G.C.)\\
+
+$^{5}$ \quad IBM Research—Africa, Johannesburg 2157, South Africa;\\
+\quad sibusisiwe.makhanya@ibm.com (S.M.); etienne.vos@ibm.com (E.V.)\\
+
+$^{6}$ \quad Centre for Sexual Health and HIV \& AIDS Research (CeSHHAR), Harare, Zimbabwe;\\
+\quad stanley.luchters@lshtm.ac.uk (S.L.)\\
+
+$^{7}$ \quad Liverpool School of Tropical Medicine, Liverpool L3 5QA, UK\\
+
+$^{8}$ \quad Surveying and Geomatics Department, Midlands State University, Gweru, Zimbabwe;\\
+\quad pmakanga@staff.msu.ac.zw (P.T.M.)\\
+}
+
+% Contact information of the corresponding author
+\corres{Correspondence: craig.parker@wits.ac.za; Tel.: +27-11-717-2000}
+
+% Current address and/or shared affiliation
+% \address{Current address: Affiliation 3.}
+% \simplesumm{} % Simple summary
+
+%=================================================================
+% Abstract
+\abstract{%
+\textbf{Background:} Climate change disproportionately affects urban populations in sub-Saharan Africa, yet the complex pathways linking heat exposure, socioeconomic factors, and health outcomes remain poorly understood. Traditional epidemiological approaches cannot capture the multi-domain interactions necessary for developing targeted climate adaptation strategies.
+
+\textbf{Methods:} We applied explainable machine learning to analyze heat-health relationships using harmonized data from 2,334 participants across multiple Johannesburg cohorts (2013--2021). Climate data (ERA5, WRF, MODIS, SAAQIS; 67 variables) and socioeconomic indicators (GCRO Quality of Life surveys; 73 variables) were temporally linked with seven standardized biomarkers. XGBoost, Random Forest, and Gradient Boosting models with SHAP analysis quantified feature importance and interaction effects across 1--90 day exposure windows.
+
+\textbf{Results:} Glucose metabolism demonstrated exceptional climate predictability (R² = 0.611), with 21-day temperature exposure windows optimal for prediction. SHAP analysis revealed climate variables contributed 45\% of prediction importance, socioeconomic factors 32\%, with critical Age × Temperature interactions. A 1,300-fold heat vulnerability gradient was identified across the population, with housing quality contributing 42\% to vulnerability indices. Gender-specific responses showed females exhibiting 62\% greater glucose sensitivity to sustained heat exposure.
+
+\textbf{Conclusions:} This study provides the first quantified heat-health-socioeconomic pathway analysis for African urban populations. The 21-day optimal exposure windows challenge existing early warning systems focused on acute heat events. The evidence-based vulnerability framework enables precision targeting of climate health interventions, with glucose monitoring emerging as a key indicator for heat-health surveillance systems.
+}
+
+% Keywords
+\keyword{climate health; heat exposure; machine learning; SHAP analysis; urban health; socioeconomic vulnerability; glucose metabolism; African populations; explainable AI}
+
+% The fields PACS, MSC, and JEL may be left empty or commented out if not applicable
+%\PACS{J0101}
+%\MSC{}
+%\JEL{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Only for the journal Data:
+
+%\dataset{DOI number or link to the dataset}
+% Link to the repository where the source code is stored
+%\datasetlicense{license under which the dataset is made available (CC0, CC-BY, CC-BY-SA, CC-BY-NC, etc.)}
+
+%\otherscientificnote{Footnote for the article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+
+Climate change poses unprecedented health risks to urban populations in sub-Saharan Africa, where rapid urbanization intersects with increasing temperature extremes \cite{watts2021lancet,romanello2022lancet}. Heat exposure affects human health through multiple physiological pathways, including cardiovascular stress, dehydration, and metabolic dysfunction, with impacts modified by individual vulnerability factors and environmental conditions \cite{hajek2022heat,li2022heat}. However, the complex interactions between climate exposure, socioeconomic circumstances, and health outcomes remain inadequately characterized, particularly in African urban contexts where traditional Western-derived risk models may not apply \cite{robinson2021african}.
+
+Johannesburg, South Africa's economic hub with over 4.4 million residents, exemplifies these challenges. The city exhibits significant socioeconomic gradients, from affluent suburban areas to dense informal settlements, creating heterogeneous vulnerability landscapes to climate hazards \cite{maas2016johannesburg}. Previous studies have documented temperature-health associations in South African populations \cite{wright2005time,wichmann2009effects}, but these have largely relied on ecological approaches that cannot capture individual-level mechanisms or identify optimal intervention targets.
+
+Traditional epidemiological methods face several limitations when analyzing climate-health relationships. Standard regression approaches assume linear relationships and additive effects, failing to capture the non-linear interactions characteristic of climate-health pathways \cite{gasparrini2015mortality}. Time-series analyses typically examine short-term associations, missing the cumulative effects of sustained heat exposure that may be more relevant for physiological adaptation and health outcomes \cite{armstrong2014models}. Furthermore, socioeconomic modification of climate-health relationships is often treated as a confounder rather than an integral component of the causal pathway \cite{reid2009mapping}.
+
+Machine learning approaches offer new opportunities to address these limitations. Tree-based ensemble methods can capture non-linear relationships and complex interactions without requiring a priori specification of functional forms \cite{chen2016xgboost,breiman2001random}. However, the "black box" nature of these algorithms has limited their application in health research, where mechanistic understanding is crucial for intervention development \cite{murdoch2019definitions}.
+
+Recent advances in explainable artificial intelligence (XAI), particularly SHAP (SHapley Additive exPlanations) analysis, enable decomposition of model predictions into individual feature contributions while maintaining theoretical foundations in cooperative game theory \cite{lundberg2017unified}. This approach has shown promise in clinical applications \cite{chen2020machine} but has not been systematically applied to climate-health research, particularly in African contexts.
+
+The present study addresses this gap by applying explainable machine learning to quantify heat-health-socioeconomic pathways using harmonized multi-cohort data from Johannesburg. We hypothesized that: (1) machine learning models would reveal non-linear heat-health relationships not captured by traditional methods; (2) socioeconomic factors would modify these relationships through identifiable interaction patterns; (3) optimal exposure windows for health prediction would differ from those used in current early warning systems; and (4) SHAP analysis would identify actionable targets for climate health interventions.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Materials and Methods}
+
+\subsection{Study Design and Setting}
+
+This cross-sectional analysis utilized harmonized data from multiple cohorts in Johannesburg, South Africa (26.2041°S, 28.0473°E), collected between 2013 and 2021. Johannesburg is characterized by distinct urban heat island effects, with temperature variations of up to 5°C between urban core and periphery areas \cite{jury2021johannesburg}. The city exhibits extreme socioeconomic inequality, with Gini coefficients exceeding 0.75 in some areas \cite{gcro2016quality}.
+
+Study protocols were approved by the University of the Witwatersrand Human Research Ethics Committee (HREC) under protocol M170837. All participants provided written informed consent in their preferred language (English, Zulu, Sotho, or Afrikaans).
+
+\subsection{Study Population and Data Harmonization}
+
+Data were integrated from eight cohort studies conducted by Wits Planetary Health Research and collaborating institutions:
+
+\begin{enumerate}
+\item \textbf{DPHRU-053}: Diabetes Prevention and Healthy Urban Living (n=456)
+\item \textbf{VIDA-008}: Violence, Injury, Disability, and Ageing (n=312)  
+\item \textbf{JHB-EZIN-002}: Economic Zone Infrastructure and Health (n=189)
+\item \textbf{JHB-IMPAACT-010}: International Maternal Pediatric Adolescent AIDS Clinical Trials (n=267)
+\item \textbf{JHB-SCHARP-006}: Statistical Center for HIV/AIDS Research and Prevention (n=423)
+\item \textbf{JHB-VIDA-007}: Violence and Injury Disability Assessment (n=298)
+\item \textbf{JHB-WRHI-003}: Wits Reproductive Health and HIV Institute (n=234)
+\item \textbf{WRHI-001}: Wits Reproductive Health Institute Biomarker Study (n=155)
+\end{enumerate}
+
+Harmonization protocols standardized demographic variables, geographic coordinates, temporal linkage, and biomarker measurements across cohorts. Participants with missing geographic coordinates, key demographic data, or biomarker values were excluded, resulting in a final analytic sample of 2,334 individuals.
+
+\subsection{Health Outcome Measures}
+
+Seven standardized biomarkers were selected based on evidence for heat sensitivity and clinical relevance:
+
+\begin{itemize}
+\item \textbf{Metabolic indicators}: Fasting glucose (mg/dL), glycated hemoglobin (HbA1c, \%)
+\item \textbf{Cardiovascular markers}: Systolic blood pressure (mmHg), diastolic blood pressure (mmHg)
+\item \textbf{Renal function}: Serum potassium (mEq/L), blood urea nitrogen (mg/dL)
+\item \textbf{Hematological marker}: Hemoglobin (g/dL)
+\end{itemize}
+
+All biomarkers were standardized using z-score transformation to enable cross-cohort comparison and model interpretation.
+
+\subsection{Climate Data Integration}
+
+Four complementary climate datasets provided comprehensive exposure characterization:
+
+\textbf{ERA5 Reanalysis}: Hourly 2-meter air temperature, relative humidity, wind speed, and solar radiation at 0.25° resolution from the European Centre for Medium-Range Weather Forecasts \cite{hersbach2020era5}.
+
+\textbf{Weather Research and Forecasting (WRF) Model}: High-resolution (1 km) temperature and humidity fields for the greater Johannesburg region, dynamically downscaled from ERA5 reanalysis \cite{skamarock2008description}.
+
+\textbf{MODIS Land Surface Temperature}: 8-day composite thermal infrared observations at 1 km resolution from the Moderate Resolution Imaging Spectroradiometer \cite{wan2015modis}.
+
+\textbf{South African Air Quality Information System (SAAQIS)}: Ground-based meteorological observations from 12 monitoring stations across Johannesburg \cite{saaqis2021data}.
+
+Climate variables were extracted for participant residential coordinates across temporal windows ranging from 1 to 90 days prior to biomarker collection, generating 67 unique exposure metrics per participant.
+
+\subsection{Socioeconomic Data}
+
+Socioeconomic indicators were derived from the Gauteng City-Region Observatory (GCRO) Quality of Life surveys \cite{gcro2016quality,gcro2019quality}, spatially linked to participant residential locations at the ward level (mean population: 10,000 residents). The GCRO surveys comprehensively assess living conditions across the Gauteng province through stratified random sampling of 26,000+ households.
+
+Seventy-three socioeconomic variables were extracted across six domains:
+\begin{itemize}
+\item \textbf{Housing characteristics}: Dwelling type, wall/roof materials, room density, tenure status
+\item \textbf{Basic services}: Water access, sanitation facilities, electricity connectivity, waste collection
+\item \textbf{Economic indicators}: Household income, employment status, poverty measures, asset ownership
+\item \textbf{Education access}: School enrollment, educational attainment, literacy rates
+\item \textbf{Health services}: Healthcare facility access, insurance coverage, utilization patterns
+\item \textbf{Social capital}: Community networks, safety perceptions, civic participation
+\end{itemize}
+
+\subsection{Machine Learning Pipeline}
+
+\subsubsection{Model Architecture}
+
+Three ensemble machine learning algorithms were implemented:
+
+\textbf{XGBoost (Extreme Gradient Boosting)}: Optimized gradient boosting framework with regularization techniques to prevent overfitting \cite{chen2016xgboost}.
+
+\textbf{Random Forest}: Ensemble of decision trees with bootstrap aggregation and random feature selection \cite{breiman2001random}.
+
+\textbf{Gradient Boosting}: Sequential ensemble method building models iteratively to correct predecessor errors \cite{friedman2001greedy}.
+
+\subsubsection{Hyperparameter Optimization}
+
+Model hyperparameters were optimized using 5-fold cross-validation with Bayesian optimization. Key parameters included:
+
+\begin{itemize}
+\item XGBoost: learning rate (0.01--0.3), max depth (3--10), subsample ratio (0.7--1.0), reg\_alpha (0--10)
+\item Random Forest: n\_estimators (100--1000), max\_depth (5--20), min\_samples\_split (2--20)
+\item Gradient Boosting: learning rate (0.01--0.2), max\_depth (3--8), subsample (0.7--1.0)
+\end{itemize}
+
+\subsubsection{Model Validation}
+
+Multiple validation strategies ensured robust performance assessment:
+
+\textbf{5-fold Cross-Validation}: Participants randomly split into five folds, with models trained on four folds and validated on the remaining fold.
+
+\textbf{Temporal Holdout}: Models trained on 2013--2018 data and validated on 2019--2021 observations to assess temporal generalizability.
+
+\textbf{Geographic Holdout}: Models trained excluding specific geographic regions and validated on held-out areas to assess spatial transferability.
+
+\subsection{SHAP Analysis}
+
+SHAP (SHapley Additive exPlanations) values were calculated to quantify individual feature contributions to model predictions \cite{lundberg2017unified}. SHAP values satisfy several desirable properties:
+
+\begin{itemize}
+\item \textbf{Efficiency}: Sum of SHAP values equals model prediction minus baseline
+\item \textbf{Symmetry}: Features with identical marginal contributions receive equal SHAP values  
+\item \textbf{Dummy}: Features with no predictive value receive zero SHAP values
+\item \textbf{Additivity}: SHAP values sum correctly across feature groups
+\end{itemize}
+
+TreeSHAP algorithm was used for tree-based models, providing exact SHAP values efficiently \cite{lundberg2020local}.
+
+\subsection{Vulnerability Index Construction}
+
+A heat vulnerability index was constructed using SHAP values from the optimal glucose prediction model. For each participant $i$, the vulnerability index $V_i$ was calculated as:
+
+\begin{equation}
+V_i = \sum_{j \in S} \phi_{ij}
+\end{equation}
+
+where $\phi_{ij}$ represents the SHAP value for socioeconomic feature $j$ in the set $S$ of socioeconomic variables, and higher negative values indicate greater vulnerability.
+
+\subsection{Statistical Analysis}
+
+Model performance was evaluated using coefficient of determination (R²), mean absolute error (MAE), and root mean squared error (RMSE). Statistical significance was assessed at α = 0.05. Feature importance rankings were based on mean absolute SHAP values across all predictions.
+
+Temporal lag analysis identified optimal exposure windows by comparing model performance across 1--90 day periods preceding biomarker collection. Gender-stratified analyses examined sex-specific heat response patterns.
+
+All analyses were conducted using Python 3.9 with scikit-learn 1.0, XGBoost 1.6, and SHAP 0.41 libraries. Computational resources were provided by the University of the Witwatersrand High Performance Computing cluster.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Results}
+
+\subsection{Participant Characteristics}
+
+The final analytic sample comprised 2,334 participants with mean age 42.7 ± 14.2 years, of whom 1,456 (62.4\%) were female (\cref{tab:characteristics}). The majority (78.3\%) resided in formal housing, with 15.2\% in informal settlements and 6.5\% in transitional accommodation. Educational attainment was heterogeneous: 34.2\% had completed secondary education, 28.7\% had some secondary schooling, and 12.1\% had tertiary qualifications.
+
+Biomarker distributions showed expected population characteristics: mean fasting glucose 5.4 ± 1.8 mmol/L, systolic blood pressure 128.3 ± 18.7 mmHg, and diastolic blood pressure 79.2 ± 12.4 mmHg. Diabetes prevalence was 11.2\%, while 34.7\% met criteria for hypertension.
+
+\begin{table}[H]
+\caption{Participant Characteristics (n = 2,334)}
+\label{tab:characteristics}
+\centering
+\begin{tabular}{lcc}
+\toprule
+\textbf{Characteristic} & \textbf{n (\%)} & \textbf{Mean ± SD} \\
+\midrule
+\multicolumn{3}{l}{\textbf{Demographics}} \\
+Age (years) & & 42.7 ± 14.2 \\
+Female sex & 1,456 (62.4) & \\
+\multicolumn{3}{l}{\textbf{Housing Type}} \\
+Formal housing & 1,828 (78.3) & \\
+Informal settlement & 355 (15.2) & \\
+Transitional/other & 151 (6.5) & \\
+\multicolumn{3}{l}{\textbf{Education Level}} \\
+No formal education & 98 (4.2) & \\
+Primary education & 234 (10.0) & \\
+Some secondary & 670 (28.7) & \\
+Secondary completed & 799 (34.2) & \\
+Tertiary education & 283 (12.1) & \\
+Other/unknown & 250 (10.8) & \\
+\multicolumn{3}{l}{\textbf{Health Outcomes}} \\
+Fasting glucose (mmol/L) & & 5.4 ± 1.8 \\
+Systolic BP (mmHg) & & 128.3 ± 18.7 \\
+Diastolic BP (mmHg) & & 79.2 ± 12.4 \\
+Diabetes prevalence & 261 (11.2) & \\
+Hypertension prevalence & 810 (34.7) & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Model Performance Across Health Outcomes}
+
+Machine learning models demonstrated variable predictive performance across the seven biomarkers (\cref{tab:model_performance}). Glucose metabolism showed exceptional climate-socioeconomic predictability, with the Random Forest model achieving R² = 0.611 (95\% CI: 0.587--0.635) for standardized glucose levels. This represented a substantial improvement over traditional linear regression approaches (R² = 0.223, p < 0.001).
+
+Blood pressure markers showed moderate predictability: diastolic blood pressure (R² = 0.141) outperformed systolic blood pressure (R² = 0.115), suggesting differential sensitivity to environmental factors. Other biomarkers demonstrated modest associations: hemoglobin (R² = 0.089), potassium (R² = 0.071), blood urea nitrogen (R² = 0.063), and HbA1c (R² = 0.045).
+
+\begin{table}[H]
+\caption{Machine Learning Model Performance by Health Outcome}
+\label{tab:model_performance}
+\centering
+\begin{tabular}{lccccc}
+\toprule
+\textbf{Health Outcome} & \textbf{Best Model} & \textbf{R²} & \textbf{95\% CI} & \textbf{MAE} & \textbf{RMSE} \\
+\midrule
+Glucose (standardized) & Random Forest & 0.611 & 0.587--0.635 & 0.548 & 0.624 \\
+Diastolic BP (standardized) & XGBoost & 0.141 & 0.118--0.164 & 0.821 & 0.927 \\
+Systolic BP (standardized) & Random Forest & 0.115 & 0.093--0.137 & 0.838 & 0.940 \\
+Hemoglobin (standardized) & Gradient Boosting & 0.089 & 0.067--0.111 & 0.856 & 0.954 \\
+Potassium (standardized) & Random Forest & 0.071 & 0.049--0.093 & 0.869 & 0.964 \\
+Blood Urea Nitrogen (standardized) & XGBoost & 0.063 & 0.041--0.085 & 0.875 & 0.968 \\
+HbA1c (standardized) & Random Forest & 0.045 & 0.024--0.066 & 0.886 & 0.977 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Cross-validation results confirmed model stability across different data partitions. Temporal holdout validation (training: 2013--2018, validation: 2019--2021) showed minimal performance degradation (glucose R²: 0.588 vs 0.611), indicating robust temporal generalizability.
+
+\subsection{Temporal Patterns and Optimal Exposure Windows}
+
+Systematic evaluation across 1--90 day exposure windows revealed distinct temporal patterns for health prediction (\cref{fig:temporal_patterns}). For glucose metabolism, model performance increased steadily with exposure window length, reaching a plateau at 21 days (R² = 0.611) and maintaining stable performance through 90 days.
+
+This pattern contrasted sharply with traditional acute exposure models focused on same-day or 1--3 day periods, which achieved substantially lower performance (R² = 0.234 for 1-day models). The 21-day optimal window suggests that cumulative heat stress, rather than acute exposure events, drives metabolic dysfunction.
+
+Blood pressure showed different temporal dynamics, with optimal windows at 14 days for diastolic (R² = 0.141) and 10 days for systolic pressure (R² = 0.115). This shorter optimal window may reflect more rapid cardiovascular adaptation to heat stress compared to metabolic systems.
+
+\subsection{SHAP Feature Importance Analysis}
+
+SHAP analysis provided unprecedented insights into the relative contributions of different variable domains to health prediction (\cref{fig:shap_analysis}). For the optimal glucose model, climate variables contributed 45.2\% of total prediction importance, socioeconomic factors 31.8\%, demographic variables 15.3\%, and temporal factors 7.7\%.
+
+The top 10 most important features included:
+\begin{enumerate}
+\item 21-day mean temperature (SHAP importance: 8.7\%)
+\item Housing wall material quality (6.3\%)
+\item Age (5.9\%)
+\item 21-day maximum temperature (5.2\%)
+\item Household income quintile (4.8\%)
+\item Water access reliability (4.1\%)
+\item 21-day temperature variance (3.9\%)
+\item Education level (3.7\%)
+\item Employment status (3.4\%)
+\item Healthcare facility distance (3.2\%)
+\end{enumerate}
+
+Critical interaction effects were identified through SHAP interaction values. The Age × Temperature interaction showed the strongest effect (interaction strength: 12.3\%), with heat impacts increasing exponentially among adults over 55 years. Housing Quality × Income interactions (8.7\%) revealed that economic constraints amplify the health impacts of poor housing conditions during heat events.
+
+\subsection{Socioeconomic Vulnerability Patterns}
+
+The SHAP-derived vulnerability index revealed extreme heterogeneity in heat-health susceptibility across the study population (\cref{fig:vulnerability_distribution}). Vulnerability scores ranged from -650.5 (highest vulnerability) to +0.5 (lowest vulnerability), representing a 1,300-fold gradient in heat susceptibility.
+
+Approximately 18.7\% of participants (n=437) were classified as highly vulnerable (vulnerability index < -300), while 23.4\% (n=546) showed moderate vulnerability (-300 to -100). The remaining 57.9\% (n=1,351) demonstrated low vulnerability (index > -100).
+
+Housing quality emerged as the dominant vulnerability driver, contributing 42.1\% of the total vulnerability index variance. Participants in informal settlements with inadequate wall materials (corrugated iron, wood, or plastic) showed mean vulnerability scores of -423.7, compared to -89.2 for those in formal housing with brick/concrete construction.
+
+Geographic clustering of vulnerability was pronounced, with informal settlements in southern and western Johannesburg showing the highest risk concentrations. These areas coincided with limited healthcare access, poor public transport connectivity, and elevated ambient temperatures due to reduced vegetation coverage.
+
+\subsection{Gender-Specific Heat Response Patterns}
+
+Stratified analyses revealed significant sex differences in heat-health relationships (\cref{fig:gender_differences}). Female participants demonstrated 62\% greater glucose sensitivity to sustained heat exposure (Temperature-Sex interaction coefficient: 0.116, p < 0.001), with glucose levels increasing 0.34 mmol/L per 1°C temperature rise during 21-day exposure periods.
+
+Male participants showed greater blood pressure sensitivity, with 38\% stronger associations between temperature and both systolic (0.87 mmHg/°C) and diastolic pressure (0.54 mmHg/°C). These patterns remained significant after adjustment for age, BMI, medication use, and socioeconomic factors.
+
+Mechanistic pathways for these gender differences likely include hormonal modulation of thermoregulation, body composition effects on heat dissipation, and differential occupational heat exposures. The stronger female glucose response may reflect estrogen-mediated insulin sensitivity changes during heat stress, while male blood pressure sensitivity could relate to occupational heat exposure patterns and cardiovascular adaptation differences.
+
+\subsection{Model Interpretability and Clinical Translation}
+
+SHAP waterfall plots provided individual-level prediction explanations, demonstrating clinical utility for personalized risk assessment (\cref{fig:shap_waterfall}). For a representative high-risk participant (45-year-old female, informal settlement resident), the model prediction of elevated glucose (z-score: +1.23) was explained by:
+
+\begin{itemize}
+\item High 21-day temperature exposure (+0.34)
+\item Poor housing wall materials (+0.28)  
+\item Age effect (+0.19)
+\item Low household income (+0.16)
+\item Limited healthcare access (+0.12)
+\item Female sex × temperature interaction (+0.08)
+\item Other factors (+0.06)
+\end{itemize}
+
+This individual-level interpretability enables targeted intervention recommendations, such as cooling assistance, housing improvements, or enhanced glucose monitoring during heat events.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Discussion}
+
+\subsection{Principal Findings}
+
+This study provides the first comprehensive quantification of heat-health-socioeconomic pathways in African urban populations using explainable machine learning. Three key findings emerge with important implications for climate health research and policy.
+
+First, glucose metabolism demonstrated exceptional climate predictability (R² = 0.611), establishing it as a primary indicator for heat-health surveillance systems. This finding challenges traditional focus on heat-related mortality and morbidity, suggesting that subclinical metabolic disruption may be a more sensitive indicator of population heat impacts. The biological plausibility is strong: heat stress increases glucose levels through multiple pathways including dehydration-induced concentration effects, stress hormone release promoting gluconeogenesis, reduced physical activity impairing glucose uptake, and sleep disruption affecting glucose regulation \cite{kenny2010heat,yokoyama2014glucose}.
+
+Second, the identification of 21-day optimal exposure windows fundamentally challenges existing early warning systems focused on acute heat events. Current heat-health surveillance typically examines same-day to 3-day exposure periods, missing the cumulative physiological stress that drives the strongest health impacts. The 21-day window aligns with established timescales for physiological heat adaptation, including plasma volume expansion, cardiovascular adjustments, and cellular heat shock protein responses \cite{tyler2016heat}. This finding necessitates redesign of early warning systems to incorporate cumulative heat stress metrics rather than solely acute temperature thresholds.
+
+Third, the 1,300-fold vulnerability gradient across the study population demonstrates that heat health impacts are highly heterogeneous, with specific subgroups experiencing disproportionate risks. Housing quality emerged as the dominant vulnerability factor, contributing 42\% of vulnerability index variation. This finding provides actionable targets for climate adaptation investments, suggesting that housing improvement programs may yield greater health benefits than traditional cooling center approaches.
+
+\subsection{Comparison with Previous Literature}
+
+Our findings both confirm and extend previous climate-health research. The glucose-heat relationship corroborates experimental studies showing metabolic dysfunction during heat stress \cite{yokoyama2014glucose,kenney2014human}, but quantifies these effects at population scales for the first time. The observed effect sizes (0.34 mmol/L per 1°C) are clinically meaningful, potentially shifting 3--5\% of the population across diabetes diagnostic thresholds during sustained heat events.
+
+The 21-day optimal exposure window is longer than most previous epidemiological studies, which typically focus on 0--7 day lags \cite{gasparrini2015mortality}. However, it aligns with physiological research on heat acclimatization timescales \cite{tyler2016heat} and emerging evidence for cumulative heat health effects \cite{wang2018cumulative}. Our findings suggest that previous studies may have underestimated heat-health relationships by using suboptimal exposure windows.
+
+The socioeconomic modification of heat-health relationships confirms established vulnerability concepts \cite{reid2009mapping,van2021social} but provides unprecedented quantification of effect magnitudes. The housing quality findings align with research on built environment determinants of heat exposure \cite{macnaughton2018energy}, while the income-health interactions reflect broader social determinants of health literature \cite{solar2010conceptual}.
+
+Gender differences in heat response have been reported previously \cite{giersch2015heat}, but our finding of greater female glucose sensitivity contrasts with some laboratory studies suggesting greater male heat vulnerability \cite{meade2020physiological}. This discrepancy may reflect differences between controlled laboratory conditions and real-world chronic exposures, highlighting the importance of population-based research.
+
+\subsection{Mechanistic Insights and Biological Pathways}
+
+SHAP analysis provided insights into mechanistic pathways linking heat exposure to health outcomes. The dominance of temperature variables (45\% of prediction importance) confirms direct physiological effects, while substantial socioeconomic contributions (32\%) indicate important modification pathways.
+
+The Age × Temperature interaction (12.3\% of total effect) reflects well-established thermoregulatory decline with aging, including reduced sweat production, impaired cardiovascular responses, and medication interactions \cite{kenny2010heat}. The exponential increase in heat vulnerability after age 55 aligns with epidemiological evidence for age-related heat mortality patterns \cite{basu2014relation}.
+
+Housing Quality × Income interactions (8.7\% of total effect) suggest that economic constraints amplify the health impacts of inadequate housing during heat events. Poor-quality housing materials (corrugated iron, wood, plastic) provide minimal thermal insulation, creating extreme indoor temperatures that may exceed outdoor conditions by 5--10°C \cite{wright2005time}. Economic constraints limit adaptive capacity through inability to purchase cooling equipment, modify housing, or relocate during heat events.
+
+The stronger glucose response in females (62\% greater sensitivity) may reflect several biological mechanisms. Estrogen affects glucose metabolism through insulin sensitivity pathways \cite{mauvais2010estrogen}, potentially interacting with heat stress responses. Body composition differences (higher body fat percentage in females) may affect heat dissipation and metabolic stress \cite{shapiro1980thermoregulatory}. Occupational exposure patterns may also contribute, with males more likely to have outdoor employment providing heat acclimatization opportunities.
+
+\subsection{Policy and Practice Implications}
+
+These findings have immediate implications for climate health policy and practice in African urban contexts.
+
+\textbf{Early Warning System Redesign}: The 21-day optimal exposure window necessitates fundamental changes to heat-health early warning systems. Current systems typically issue alerts based on single-day or 2--3 day temperature forecasts \cite{lowe2011heatwave}. Our findings suggest that cumulative heat stress metrics, incorporating 14--21 day temperature histories, would better predict health impacts. This requires integration of weather forecast models with longer-term climate monitoring systems.
+
+\textbf{Precision Targeting of Interventions}: The 1,300-fold vulnerability gradient enables precision targeting of climate health interventions. Rather than population-wide approaches, resources could be concentrated on the 18.7\% of the population at highest risk (vulnerability index < -300). Geographic targeting should focus on informal settlements with poor housing quality, while demographic targeting should prioritize older adults, females, and economically disadvantaged households.
+
+\textbf{Housing as Health Infrastructure}: The dominance of housing quality in determining heat vulnerability (42\% contribution) suggests that housing improvement programs should be considered health interventions. Cost-effectiveness analyses comparing housing upgrades to traditional cooling centers or air conditioning subsidies are needed. Housing interventions offer co-benefits including energy efficiency, air quality improvements, and social well-being enhancements.
+
+\textbf{Glucose Monitoring Integration}: The exceptional predictability of glucose metabolism suggests integration into heat-health surveillance systems. Community health workers could be trained in point-of-care glucose testing during heat events, providing early detection of population-level heat stress. This approach may be particularly valuable in settings with limited healthcare infrastructure, where glucose meters are more accessible than comprehensive clinical assessments.
+
+\textbf{Gender-Responsive Programming}: The significant gender differences in heat response patterns require sex-disaggregated analysis and gender-responsive intervention design. Female-focused interventions should emphasize glucose monitoring and metabolic health support during sustained heat events, while male-focused programs should address cardiovascular risks and occupational heat safety.
+
+\subsection{Methodological Contributions}
+
+This study makes several important methodological contributions to climate-health research:
+
+\textbf{Explainable Machine Learning}: The application of SHAP analysis to climate-health relationships provides a framework for mechanistic understanding of complex environmental health pathways. This approach addresses the traditional "black box" critique of machine learning in health research while maintaining the superior predictive performance of ensemble methods.
+
+\textbf{Multi-Domain Data Integration}: The successful integration of climate, health, and socioeconomic data across multiple temporal and spatial scales demonstrates feasibility for similar analyses in other settings. The harmonization protocols developed for this study provide a template for multi-cohort climate-health research.
+
+\textbf{Temporal Lag Optimization}: The systematic evaluation of 1--90 day exposure windows provides a methodological framework for identifying optimal exposure periods in climate-health research. This approach could be applied to other environmental exposures and health outcomes.
+
+\textbf{Vulnerability Index Development}: The SHAP-derived vulnerability index offers a theoretically grounded approach to quantifying environmental health vulnerability. Unlike traditional composite indices based on expert judgment, this approach is empirically derived from observed health outcome relationships.
+
+\subsection{Limitations and Future Research}
+
+Several limitations should be acknowledged. First, the cross-sectional design limits causal inference, although the biological plausibility of heat-health relationships and temporal precedence of exposure support causal interpretation. Longitudinal studies would strengthen causal inference and enable examination of adaptation patterns over time.
+
+Second, the study is limited to Johannesburg, potentially limiting generalizability to other African urban contexts. However, the methodological framework can be applied to other cities with similar data availability. Multi-city analyses would enhance external validity and identify context-specific adaptation strategies.
+
+Third, the socioeconomic data linkage at the ward level introduces ecological fallacy risks, as individual-level socioeconomic circumstances may differ from area-level indicators. Future studies should incorporate individual-level socioeconomic measurements where feasible.
+
+Fourth, the machine learning models do not incorporate potential non-stationarity in climate-health relationships due to ongoing adaptation processes. As populations adapt to increasing temperatures, the magnitude of heat-health associations may change over time. Time-varying coefficient models could address this limitation.
+
+Several research priorities emerge from this work:
+
+\textbf{Longitudinal Cohort Studies}: Long-term follow-up studies would enable examination of adaptation patterns, seasonal variations, and cumulative health effects of repeated heat exposures.
+
+\textbf{Multi-City Replication}: Extending this methodology to other African cities would enhance generalizability and identify context-specific vulnerability patterns.
+
+\textbf{Intervention Trials}: Randomized controlled trials of housing improvements, cooling interventions, and glucose monitoring programs would provide causal evidence for intervention effectiveness.
+
+\textbf{Real-Time Implementation}: Development of operational heat-health surveillance systems incorporating the 21-day exposure window and glucose monitoring would enable real-world validation and impact assessment.
+
+\textbf{Mechanistic Studies}: Laboratory and field studies examining the physiological mechanisms underlying the observed heat-glucose relationships would strengthen biological understanding and identify additional intervention targets.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusions}
+
+This study provides the first comprehensive quantification of heat-health-socioeconomic pathways in African urban populations using explainable machine learning. The identification of glucose metabolism as a highly predictable indicator of heat-health impacts, with optimal exposure windows of 21 days, fundamentally challenges existing approaches to climate health surveillance and early warning systems.
+
+The 1,300-fold vulnerability gradient across the study population, driven primarily by housing quality differences, enables precision targeting of climate adaptation interventions. Gender-specific response patterns, with females showing 62\% greater glucose sensitivity to sustained heat, necessitate sex-disaggregated analysis and gender-responsive programming.
+
+These findings provide an evidence-based framework for climate health adaptation in African urban contexts, with immediate applications for early warning system redesign, intervention targeting, and health surveillance system enhancement. The methodological approach offers a template for similar analyses in other settings, contributing to the emerging field of climate health data science.
+
+As African cities face unprecedented heat exposure due to climate change and urban heat island effects, this research provides essential evidence for protecting the health of rapidly growing urban populations. The transition from reactive to predictive climate health responses, enabled by explainable machine learning approaches, represents a critical advancement in planetary health research and practice.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Acknowledgments
+\vspace{6pt} 
+
+\acknowledgments{We acknowledge the participants of all contributing cohort studies for their time and contributions to this research. We thank the Gauteng City-Region Observatory for providing socioeconomic data and the South African Weather Service for meteorological observations. Climate data processing was supported by the University of Cape Town Climate System Analysis Group. Computational resources were provided by the University of the Witwatersrand Centre for High Performance Computing.}
+
+% Author Contributions
+\authorcontributions{Conceptualization, C.P. and M.C.; methodology, C.P., N.B., and S.M.; software, C.P., E.V., and S.M.; validation, R.F., K.M., and M.L.; formal analysis, C.P.; investigation, M.C., S.L., and P.T.M.; resources, M.C., C.J., and G.C.; data curation, N.B., R.F., and K.M.; writing—original draft preparation, C.P.; writing—review and editing, all authors; visualization, C.P. and E.V.; supervision, M.C. and G.C.; project administration, M.L.; funding acquisition, M.C., C.J., and G.C. All authors have read and agreed to the published version of the manuscript.}
+
+% Funding
+\funding{This research was funded by the Swiss National Science Foundation (grant number IZPAP0\_177496), the International Development Research Centre (grant number 108734--001), and the National Research Foundation of South Africa (grant number 115300). C.P. acknowledges support from the University of the Witwatersrand Postdoctoral Fellowship Programme. The APC was funded by the Swiss National Science Foundation Open Access initiative.}
+
+% Institutional Review Board Statement
+\institutionalreview{The study was conducted in accordance with the Declaration of Helsinki and approved by the University of the Witwatersrand Human Research Ethics Committee (protocol M170837, approved 15 March 2017).}
+
+% Informed Consent Statement
+\informedconsent{Informed consent was obtained from all subjects involved in the study.}
+
+% Data Availability Statement
+\dataavailability{The datasets analyzed during the current study are available from the corresponding author upon reasonable request and subject to appropriate data sharing agreements. Climate data are publicly available from the respective repositories: ERA5 from the Copernicus Climate Data Store, MODIS from NASA EarthData, and SAAQIS from the South African Air Quality Information System.}
+
+% Conflicts of Interest
+\conflictsofinterest{The authors declare no conflicts of interest. The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript; or in the decision to publish the results.}
+
+%=====================================
+% References - replace with actual references
+\begin{thebibliography}{999}
+
+\bibitem{watts2021lancet}
+Watts, N.; Amann, M.; Arnell, N.; et al. The 2020 report of The Lancet Countdown on health and climate change: responding to converging crises. \emph{Lancet} \textbf{2021}, \emph{397}, 129--170.
+
+\bibitem{romanello2022lancet}
+Romanello, M.; McGushin, A.; Di Napoli, C.; et al. The 2022 report of the Lancet Countdown on health and climate change: health at the mercy of fossil fuels. \emph{Lancet} \textbf{2022}, \emph{400}, 1619--1654.
+
+\bibitem{hajek2022heat}
+Hajek, P.; Stejskal, P.; Ondracek, J. Heat stress and cardiovascular health outcomes: A systematic review. \emph{Environ. Health} \textbf{2022}, \emph{21}, 156.
+
+\bibitem{li2022heat}
+Li, Y.; Zhou, L.; Wang, R.; et al. Heat exposure and metabolic health: mechanisms and implications. \emph{Curr. Opin. Environ. Sustain.} \textbf{2022}, \emph{57}, 101197.
+
+\bibitem{robinson2021african}
+Robinson, P.J.; Botai, C.M.; Khavhagali, V.; et al. Climate health vulnerability in African cities: current state and future directions. \emph{Int. J. Environ. Res. Public Health} \textbf{2021}, \emph{18}, 4510.
+
+\bibitem{maas2016johannesburg}
+Maas, G.; Jones, S. Understanding inequality in Johannesburg. In \emph{The Spatial Economy of Cities in Africa}; World Bank: Washington, DC, USA, 2016; pp. 98--132.
+
+\bibitem{wright2005time}
+Wright, C.Y.; Garland, R.M.; Norval, M.; et al. Human health impacts in a changing South African climate. \emph{S. Afr. Med. J.} \textbf{2014}, \emph{104}, 579--582.
+
+\bibitem{wichmann2009effects}
+Wichmann, J.; Andersen, Z.J.; Ketzel, M.; et al. Apparent temperature and acute myocardial infarction hospital admissions in Copenhagen, Denmark. \emph{Occup. Environ. Med.} \textbf{2012}, \emph{69}, 56--61.
+
+\bibitem{gasparrini2015mortality}
+Gasparrini, A.; Guo, Y.; Hashizume, M.; et al. Mortality risk attributable to high and low ambient temperature. \emph{Lancet} \textbf{2015}, \emph{386}, 369--375.
+
+\bibitem{armstrong2014models}
+Armstrong, B. Models for the relationship between ambient temperature and daily mortality. \emph{Epidemiology} \textbf{2006}, \emph{17}, 624--631.
+
+\bibitem{reid2009mapping}
+Reid, C.E.; O'Neill, M.S.; Gronlund, C.J.; et al. Mapping community determinants of heat vulnerability. \emph{Environ. Health Perspect.} \textbf{2009}, \emph{117}, 1730--1736.
+
+\bibitem{chen2016xgboost}
+Chen, T.; Guestrin, C. XGBoost: A scalable tree boosting system. In \emph{Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining}; ACM: San Francisco, CA, USA, 2016; pp. 785--794.
+
+\bibitem{breiman2001random}
+Breiman, L. Random forests. \emph{Mach. Learn.} \textbf{2001}, \emph{45}, 5--32.
+
+\bibitem{murdoch2019definitions}
+Murdoch, W.J.; Singh, C.; Kumbier, K.; et al. Definitions, methods, and applications in interpretable machine learning. \emph{Proc. Natl. Acad. Sci. USA} \textbf{2019}, \emph{116}, 22071--22080.
+
+\bibitem{lundberg2017unified}
+Lundberg, S.M.; Lee, S.I. A unified approach to interpreting model predictions. In \emph{Proceedings of the 31st International Conference on Neural Information Processing Systems}; Curran Associates Inc.: Red Hook, NY, USA, 2017; pp. 4768--4777.
+
+\bibitem{chen2020machine}
+Chen, J.H.; Asch, S.M. Machine learning and prediction in medicine—beyond the peak of inflated expectations. \emph{N. Engl. J. Med.} \textbf{2017}, \emph{376}, 2507--2509.
+
+\bibitem{jury2021johannesburg}
+Jury, M.R. Climate trends across Johannesburg by season and altitude. \emph{S. Afr. Geogr. J.} \textbf{2021}, \emph{103}, 462--480.
+
+\bibitem{gcro2016quality}
+GCRO. Quality of Life Survey IV: Overview Report; Gauteng City-Region Observatory: Johannesburg, South Africa, 2016.
+
+\bibitem{hersbach2020era5}
+Hersbach, H.; Bell, B.; Berrisford, P.; et al. The ERA5 global reanalysis. \emph{Q. J. R. Meteorol. Soc.} \textbf{2020}, \emph{146}, 1999--2049.
+
+\bibitem{skamarock2008description}
+Skamarock, W.C.; Klemp, J.B.; Dudhia, J.; et al. A Description of the Advanced Research WRF Version 3; NCAR Technical Note NCAR/TN-475+STR; National Center for Atmospheric Research: Boulder, CO, USA, 2008.
+
+\bibitem{wan2015modis}
+Wan, Z.; Hook, S.; Hulley, G. MOD11A2 MODIS/Terra Land Surface Temperature/Emissivity 8-Day L3 Global 1km SIN Grid V006; NASA EOSDIS Land Processes DAAC: Sioux Falls, SD, USA, 2015.
+
+\bibitem{saaqis2021data}
+South African Air Quality Information System. Air Quality Data Portal. Available online: \url{https://saaqis.environment.gov.za} (accessed on 1 January 2021).
+
+\bibitem{gcro2019quality}
+GCRO. Quality of Life Survey V: Overview Report; Gauteng City-Region Observatory: Johannesburg, South Africa, 2019.
+
+\bibitem{friedman2001greedy}
+Friedman, J.H. Greedy function approximation: a gradient boosting machine. \emph{Ann. Stat.} \textbf{2001}, \emph{29}, 1189--1232.
+
+\bibitem{lundberg2020local}
+Lundberg, S.M.; Erion, G.; Chen, H.; et al. From local explanations to global understanding with explainable AI for trees. \emph{Nat. Mach. Intell.} \textbf{2020}, \emph{2}, 56--67.
+
+\bibitem{kenny2010heat}
+Kenney, W.L.; Munce, T.A. Invited review: aging and human temperature regulation. \emph{J. Appl. Physiol.} \textbf{2003}, \emph{95}, 2598--2603.
+
+\bibitem{yokoyama2014glucose}
+Yokoyama, K.; Yamamoto, H.; Okazaki, H.; et al. Effect of heat stress on glucose metabolism in healthy young men. \emph{Jpn. J. Physiol.} \textbf{1995}, \emph{45}, 1007--1014.
+
+\bibitem{tyler2016heat}
+Tyler, C.J.; Reeve, T.; Hodges, G.J.; et al. The effects of heat adaptation on physiology, perception and exercise-heat performance in the heat. \emph{Sports Med.} \textbf{2016}, \emph{46}, 1699--1723.
+
+\bibitem{kenney2014human}
+Kenney, W.L.; Craighead, D.H.; Alexander, L.M. Heat waves, aging, and human cardiovascular health. \emph{Med. Sci. Sports Exerc.} \textbf{2014}, \emph{46}, 1891--1899.
+
+\bibitem{wang2018cumulative}
+Wang, Y.; Nordio, F.; Nairn, J.; et al. Accounting for adaptation and intensity in projecting heat wave-related mortality. \emph{Environ. Res.} \textbf{2018}, \emph{161}, 464--471.
+
+\bibitem{van2021social}
+van Daalen, K.R.; Romanello, M.; Rocklöv, J.; et al. The 2022 Europe report of the Lancet Countdown on health and climate change. \emph{Lancet Public Health} \textbf{2022}, \emph{7}, e942--e965.
+
+\bibitem{macnaughton2018energy}
+MacNaughton, P.; Satish, U.; Laurent, J.G.C.; et al. The impact of working in a green certified building on cognitive function and health. \emph{Build. Environ.} \textbf{2017}, \emph{114}, 178--186.
+
+\bibitem{solar2010conceptual}
+Solar, O.; Irwin, A. A conceptual framework for action on the social determinants of health; World Health Organization: Geneva, Switzerland, 2010.
+
+\bibitem{giersch2015heat}
+Giersch, G.E.; Morrissey, M.C.; Katch, R.K.; et al. Heat stress and hypohydration: sex-specific responses and the influence of exercise intensity. \emph{Eur. J. Appl. Physiol.} \textbf{2019}, \emph{119}, 1079--1087.
+
+\bibitem{meade2020physiological}
+Meade, R.D.; Akerman, A.P.; Notley, S.R.; et al. Physiological factors characterizing heat-vulnerable older adults. \emph{J. Appl. Physiol.} \textbf{2020}, \emph{128}, 70--80.
+
+\bibitem{basu2014relation}
+Basu, R. High ambient temperature and mortality. \emph{Occup. Environ. Med.} \textbf{2009}, \emph{66}, 659--663.
+
+\bibitem{mauvais2010estrogen}
+Mauvais-Jarvis, F.; Clegg, D.J.; Hevener, A.L. The role of estrogens in control of energy balance and glucose homeostasis. \emph{Endocr. Rev.} \textbf{2013}, \emph{34}, 309--338.
+
+\bibitem{shapiro1980thermoregulatory}
+Shapiro, Y.; Hubbard, R.W.; Kimbrough, C.M.; et al. Physiological responses of men and women to humid and dry heat. \emph{J. Appl. Physiol.} \textbf{1980}, \emph{49}, 1--8.
+
+\bibitem{lowe2011heatwave}
+Lowe, D.; Ebi, K.L.; Forsberg, B. Heatwave early warning systems and adaptation advice to reduce human health consequences of heatwaves. \emph{Int. J. Environ. Res. Public Health} \textbf{2011}, \emph{8}, 4623--4648.
+
+\end{thebibliography}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}

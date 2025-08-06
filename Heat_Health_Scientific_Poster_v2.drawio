@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2025-08-06T00:00:00.000Z" agent="draw.io" etag="heat-health-poster-v2" version="24.6.4" type="device" pages="1">
+  <diagram name="Heat-Health-Poster" id="heat-health-scientific-poster">
+    <mxGraphModel dx="3456" dy="2592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4800" pageHeight="3600" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- BACKGROUND AND BORDERS -->
+        <mxCell id="main-background" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry width="4800" height="3600" as="geometry"/>
+        </mxCell>
+        
+        <!-- TOP ORANGE GRADIENT STRIPE -->
+        <mxCell id="top-stripe" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF7043;strokeColor=none;gradientColor=#F57C00;gradientDirection=south;" vertex="1" parent="1">
+          <mxGeometry y="0" width="4800" height="40" as="geometry"/>
+        </mxCell>
+        
+        <!-- BOTTOM ORANGE STRIPE -->
+        <mxCell id="bottom-stripe" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F57C00;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry y="3560" width="4800" height="40" as="geometry"/>
+        </mxCell>
+        
+        <!-- HEAT AFRICA LOGO PLACEHOLDER (Top Left) -->
+        <mxCell id="heat-logo" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F57C00;strokeColor=#E65100;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="60" y="70" width="120" height="120" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="heat-text" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 16px; font-weight: bold; color: #FFFFFF;&quot;&gt;HEAT&lt;br&gt;AFRICA&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="110" width="100" height="40" as="geometry"/>
+        </mxCell>
+        
+        <!-- AFRICA OUTLINE IN LOGO -->
+        <mxCell id="africa-shape" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=data:image/svg+xml,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIGZpbGw9IiNGRkZGRkYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnoiLz4KPC9zdmc+" vertex="1" parent="1">
+          <mxGeometry x="100" y="85" width="50" height="50" as="geometry"/>
+        </mxCell>
+        
+        <!-- CONFERENCE LOGO (Top Right) -->
+        <mxCell id="conference-logo" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 28px; font-weight: bold; color: #2E7D32;&quot;&gt;#486&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 20px; color: #666;&quot;&gt;CHAC2024&lt;br&gt;Climate and Health&lt;br&gt;Africa Conference&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4500" y="70" width="240" height="120" as="geometry"/>
+        </mxCell>
+        
+        <!-- MAIN TITLE -->
+        <mxCell id="main-title" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 84px; font-weight: bold; color: #2E7D32;&quot;&gt;Explainable AI for Heat-Health-Socioeconomic Interactions&lt;br&gt;in African Urban Populations&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="4300" height="200" as="geometry"/>
+        </mxCell>
+        
+        <!-- AUTHORS LINE -->
+        <mxCell id="authors-line" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 36px; color: #424242;&quot;&gt;Authors: Muaaz Bhamjee, Zaheed Gaffoor, Tamara Govindasamy, Craig Mahlasi, Sibusisiwe Makhanya,&lt;br&gt;Mangaliso Mngomezulu, Etienne Vos, IBM Research - Africa&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="300" width="4300" height="120" as="geometry"/>
+        </mxCell>
+        
+        <!-- DS-I AFRICA AND IBM LOGOS -->
+        <mxCell id="dsi-logo" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 16px; color: #2196F3;&quot;&gt;DS-I Africa&lt;br&gt;Data Science for&lt;br&gt;Innovation in Africa&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#2196F3;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="4350" y="320" width="180" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- LEFT COLUMN BACKGROUND -->
+        <mxCell id="left-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E0E0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="60" y="450" width="1480" height="3050" as="geometry"/>
+        </mxCell>
+        
+        <!-- BACKGROUND SECTION -->
+        <mxCell id="background-header" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 48px; font-weight: bold; color: #F57C00;&quot;&gt;Background&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="480" width="400" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="background-text" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 28px; color: #424242;&quot;&gt;Quantifying the impacts of extreme climate events is a global necessity. Risks associated with heat and how they vary within urban areas and between urban and rural areas are of particular interest as the pace of climate change continues to accelerate. Socioeconomic factors and population vulnerability are a concern in terms of escalating adverse health consequences associated with extreme heat events.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="560" width="1400" height="200" as="geometry"/>
+        </mxCell>
+        
+        <!-- METHODS SECTION -->
+        <mxCell id="methods-header" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 48px; font-weight: bold; color: #F57C00;&quot;&gt;Methods&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="800" width="400" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- METHODS CONTENT BOX -->
+        <mxCell id="methods-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#F57C00;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="880" width="1400" height="600" as="geometry"/>
+        </mxCell>
+        
+        <!-- INPUT DATA SECTION -->
+        <mxCell id="inputs-header" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 32px; font-weight: bold; color: #F57C00;&quot;&gt;Inputs&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="900" width="200" height="40" as="geometry"/>
+        </mxCell>
+        
+        <!-- HLS DATA BOX -->
+        <mxCell id="hls-box" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 20px; font-weight: bold; color: #424242;&quot;&gt;HLS Data&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 16px; color: #666;&quot;&gt;• Spatial Resolution: 30m&lt;br&gt;• Temporal Resolution: 2-3 days&lt;br&gt;• Bands: RGB, NIR, SWIR1 and SWIR2&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#2E7D32;strokeWidth=2;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="130" y="960" width="300" height="120" as="geometry"/>
+        </mxCell>
+        
+        <!-- CLIMATE/WEATHER BOX -->
+        <mxCell id="climate-box" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 20px; font-weight: bold; color: #424242;&quot;&gt;Climate/Weather&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 16px; color: #666;&quot;&gt;• ERA5 Land near surface air temperature: 9km&lt;br&gt;• Spatial Resolution: 9km&lt;br&gt;• Temporal Resolution: Hourly&lt;br&gt;• Range: 1980 - Present&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#2196F3;strokeWidth=2;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1100" width="300" height="140" as="geometry"/>
+        </mxCell>
+        
+        <!-- PROCESSING PIPELINE -->
+        <mxCell id="pipeline-header" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 24px; font-weight: bold; color: #F57C00;&quot;&gt;Foundation Model Pipeline&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="900" width="400" height="40" as="geometry"/>
+        </mxCell>
+        
+        <!-- SWIN ENCODER -->
+        <mxCell id="swin-encoder" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 20px; font-weight: bold; color: #FFFFFF;&quot;&gt;SWIN&lt;br&gt;Encoder&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2E7D32;strokeColor=#1B5E20;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="520" y="980" width="120" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- SWIN DECODER -->
+        <mxCell id="swin-decoder" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 20px; font-weight: bold; color: #FFFFFF;&quot;&gt;SWIN&lt;br&gt;Decoder&lt;br&gt;Head&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2E7D32;strokeColor=#1B5E20;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="680" y="980" width="120" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- ARROWS -->
+        <mxCell id="arrow-1" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#F57C00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="1020" as="sourcePoint"/>
+            <mxPoint x="500" y="1020" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow-2" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#F57C00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="1020" as="sourcePoint"/>
+            <mxPoint x="660" y="1020" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- TARGET SECTION -->
+        <mxCell id="target-header" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 32px; font-weight: bold; color: #F57C00;&quot;&gt;Target&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="900" width="200" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="target-box" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 18px; color: #424242;&quot;&gt;• LST observations&lt;br&gt;• Temperature (LST)&lt;br&gt;• Spatial resolution&lt;br&gt;• Temporal Resolution: 16-day overpass&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#F44336;strokeWidth=2;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="900" y="960" width="280" height="120" as="geometry"/>
+        </mxCell>
+        
+        <!-- ARROW TO TARGET -->
+        <mxCell id="arrow-3" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#F57C00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="1020" as="sourcePoint"/>
+            <mxPoint x="880" y="1020" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- MODEL DESCRIPTION -->
+        <mxCell id="model-desc" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 20px; color: #424242;&quot;&gt;&lt;b&gt;Encoder:&lt;/b&gt; Uses an updated version of Prithvi, which acts as SWIN backbone&lt;br&gt;&lt;b&gt;Decoder:&lt;/b&gt; Uses a Linear Perceptual Parsing Layer for Understanding (UperfNet) regression head with an auxiliary 1-layer Convolution regression head [1]&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1280" width="1320" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- WORLD MAP PLACEHOLDER -->
+        <mxCell id="world-map" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 20px; color: #424242;&quot;&gt;[World Map showing training locations]&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#9E9E9E;strokeWidth=2;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1380" width="1320" height="280" as="geometry"/>
+        </mxCell>
+        
+        <!-- QR CODE -->
+        <mxCell id="qr-code-box" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 16px; font-weight: bold; color: #424242;&quot;&gt;QR CODE&lt;br&gt;&lt;br&gt;Open-source version&lt;br&gt;of TerraForch&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#424242;strokeWidth=2;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="1700" width="150" height="150" as="geometry"/>
+        </mxCell>
+        
+        <!-- TRAINING STATS -->
+        <mxCell id="training-stats" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 24px; font-weight: bold; color: #2E7D32;&quot;&gt;Training Statistics:&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 20px; color: #424242;&quot;&gt;• ~50 cities (29 included in training dataset)&lt;br&gt;• Various urban areas and hydroclimatic zones&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1700" width="600" height="120" as="geometry"/>
+        </mxCell>
+        
+        <!-- MIDDLE COLUMN BACKGROUND -->
+        <mxCell id="middle-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E0E0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="450" width="1560" height="3050" as="geometry"/>
+        </mxCell>
+        
+        <!-- RESULTS HEADER -->
+        <mxCell id="results-header" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 48px; font-weight: bold; color: #2E7D32;&quot;&gt;Results&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="480" width="400" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- ABIDJAN RESULTS -->
+        <mxCell id="abidjan-results" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#2E7D32;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="570" width="1480" height="400" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="abidjan-title" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 28px; font-weight: bold; color: #2E7D32;&quot;&gt;Abidjan&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="590" width="200" height="40" as="geometry"/>
+        </mxCell>
+        
+        <!-- FIGURE PLACEHOLDERS FOR ABIDJAN -->
+        <mxCell id="abidjan-obs" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 14px; color: #424242;&quot;&gt;LST observations&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCDD2;strokeColor=#F44336;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="640" width="180" height="120" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="abidjan-prithvi" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 14px; color: #424242;&quot;&gt;Prithvi&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE0B2;strokeColor=#FF9800;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="640" width="180" height="120" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="abidjan-mae" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 14px; color: #424242;&quot;&gt;MAE LST&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1F5FE;strokeColor=#03A9F4;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="640" width="180" height="120" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="abidjan-scatter" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 14px; color: #424242;&quot;&gt;LST quantile&lt;br&gt;histogram&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#9C27B0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="640" width="180" height="120" as="geometry"/>
+        </mxCell>
+        
+        <!-- TEMPERATURE SCALE -->
+        <mxCell id="temp-scale-1" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 12px; color: #424242;&quot;&gt;Temperature Scale (K)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEB3B;strokeColor=#FBC02D;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="780" width="780" height="30" as="geometry"/>
+        </mxCell>
+        
+        <!-- JOHANNESBURG RESULTS -->
+        <mxCell id="johannesburg-results" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#F57C00;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1020" width="1480" height="400" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="johannesburg-title" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 28px; font-weight: bold; color: #F57C00;&quot;&gt;Johannesburg&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="1040" width="200" height="40" as="geometry"/>
+        </mxCell>
+        
+        <!-- FIGURE PLACEHOLDERS FOR JOHANNESBURG -->
+        <mxCell id="jhb-obs" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 14px; color: #424242;&quot;&gt;LST observations&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCDD2;strokeColor=#F44336;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1090" width="180" height="120" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="jhb-prithvi" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 14px; color: #424242;&quot;&gt;Prithvi&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE0B2;strokeColor=#FF9800;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="1090" width="180" height="120" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="jhb-mae" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 14px; color: #424242;&quot;&gt;MAE LST&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1F5FE;strokeColor=#03A9F4;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="1090" width="180" height="120" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="jhb-scatter" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 14px; color: #424242;&quot;&gt;LST quantile&lt;br&gt;histogram&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#9C27B0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="1090" width="180" height="120" as="geometry"/>
+        </mxCell>
+        
+        <!-- TEMPERATURE SCALE -->
+        <mxCell id="temp-scale-2" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 12px; color: #424242;&quot;&gt;Temperature Scale (K)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEB3B;strokeColor=#FBC02D;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1230" width="780" height="30" as="geometry"/>
+        </mxCell>
+        
+        <!-- ABU DHABI RESULTS -->
+        <mxCell id="abudhabi-results" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#2E7D32;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1470" width="1480" height="400" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="abudhabi-title" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 28px; font-weight: bold; color: #2E7D32;&quot;&gt;Abu Dhabi&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="1490" width="200" height="40" as="geometry"/>
+        </mxCell>
+        
+        <!-- FIGURE PLACEHOLDERS FOR ABU DHABI -->
+        <mxCell id="ad-obs" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 14px; color: #424242;&quot;&gt;LST observations&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCDD2;strokeColor=#F44336;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1540" width="180" height="120" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="ad-prithvi" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 14px; color: #424242;&quot;&gt;Prithvi&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE0B2;strokeColor=#FF9800;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="1540" width="180" height="120" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="ad-mae" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 14px; color: #424242;&quot;&gt;MAE LST&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1F5FE;strokeColor=#03A9F4;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="1540" width="180" height="120" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="ad-scatter" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 14px; color: #424242;&quot;&gt;LST quantile&lt;br&gt;histogram&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#9C27B0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="1540" width="180" height="120" as="geometry"/>
+        </mxCell>
+        
+        <!-- TEMPERATURE SCALE -->
+        <mxCell id="temp-scale-3" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 12px; color: #424242;&quot;&gt;Temperature Scale (K)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEB3B;strokeColor=#FBC02D;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1680" width="780" height="30" as="geometry"/>
+        </mxCell>
+        
+        <!-- MAIN RESULTS TEXT -->
+        <mxCell id="main-results-text" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 24px; font-weight: bold; color: #2E7D32;&quot;&gt;Figure 2: Results for Abidjan, Johannesburg and Abu Dhabi&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 20px; color: #424242;&quot;&gt;From left to right: RGB plot, LST observations; LST predictions; MAE; LST quantile histograms; scatterplot&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 18px; color: #666;&quot;&gt;Temperature variations across land surface features are accurately represented. Water bodies and vegetated areas are indicated to be built up regions.&lt;br&gt;&lt;br&gt;Mean Absolute Error (MAE) values are low for both Abidjan and Johannesburg predictions as shown by their LST hotspots are indicated in blue tones.&lt;br&gt;&lt;br&gt;The model sufficiently predicts LST values over unseen timesteps and unseen cities (cities the model has never been trained on such as Abu Dhabi), making it highly generalizable.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1940" width="1480" height="300" as="geometry"/>
+        </mxCell>
+        
+        <!-- RIGHT COLUMN BACKGROUND -->
+        <mxCell id="right-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E0E0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3220" y="450" width="1520" height="3050" as="geometry"/>
+        </mxCell>
+        
+        <!-- RESULTS SECTION IN RIGHT COLUMN -->
+        <mxCell id="right-results-header" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 48px; font-weight: bold; color: #2E7D32;&quot;&gt;Results&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3260" y="480" width="400" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- DETAILED RESULTS -->
+        <mxCell id="detailed-results" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 22px; color: #424242;&quot;&gt;• We fine-tune the IBM EOFM, "Prithvi", following the description in Figure 1.&lt;br&gt;&lt;br&gt;• The fine-tuned model incorporates a SWIN transformer architecture.&lt;br&gt;&lt;br&gt;• Performance of the model in predicting LST was assessed against a U-Net model.&lt;br&gt;&lt;br&gt;• Results indicate high correlation between predicted and measured values of LST, with mean absolute error of approximately 1.7 K and enhanced capabilities for predictions.&lt;br&gt;&lt;br&gt;• Our model demonstrates the ability to accurately capture temperature variations across different land cover types within urban areas.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3260" y="570" width="1440" height="400" as="geometry"/>
+        </mxCell>
+        
+        <!-- CONCLUSION SECTION -->
+        <mxCell id="conclusion-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#2E7D32;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="3260" y="1020" width="1440" height="600" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="conclusion-header" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 48px; font-weight: bold; color: #2E7D32;&quot;&gt;Conclusion&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3300" y="1060" width="400" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="conclusion-text" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 24px; color: #424242;&quot;&gt;The model developed is beneficial for SUHI detection with the ability to contribute to urban area heat island mapping and forecasting.&lt;br&gt;&lt;br&gt;Other applications include assessing the impact of heat on the built environment, specifically risk to critical infrastructure, and inform urban planning decisions related to the context of adapting and working to mitigate against the effects of SUHIs.&lt;br&gt;&lt;br&gt;High resolution (30m) LST maps are easier to integrate with health outcomes data to understand the impacts of heat on health. This is important for the development of Early Warning Systems.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3300" y="1140" width="1360" height="460" as="geometry"/>
+        </mxCell>
+        
+        <!-- REFERENCES SECTION -->
+        <mxCell id="references-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#F57C00;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3260" y="1680" width="1440" height="400" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="references-header" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 32px; font-weight: bold; color: #F57C00;&quot;&gt;References&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3300" y="1720" width="400" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="references-text" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 18px; color: #424242;&quot;&gt;1. Johannes Jakubik et al., "Prithvi-100M," Aug. 2023, https://github.com/NASA-IMPACT/hls-foundation-os&lt;br&gt;2. Jingru Huang et al., "Detection of Urban Heat Islands Using Multi-Source Remote Sensing Data with Machine Learning," Presented in the 2024 IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2024), pp. 10747-10750, Jul. 2024, Athens, Greece. doi: 10.1109/IGARSS53475.2024.10641750.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3300" y="1780" width="1360" height="120" as="geometry"/>
+        </mxCell>
+        
+        <!-- FUNDING AND CONTACT -->
+        <mxCell id="funding-contact" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 20px; color: #424242;&quot;&gt;&lt;b&gt;Funding:&lt;/b&gt; The research presented here was developed by the European Union (NextGEOSS) funded by the European Research Council NIHS) and OB/Office of Strategic Coordination (OSC) of the National Institutes of Health under Award Number 1U54TW012043.&lt;br&gt;&lt;br&gt;&lt;b&gt;Conflict of Interests:&lt;/b&gt; None.&lt;br&gt;&lt;br&gt;&lt;b&gt;Corresponding Author:&lt;/b&gt;&lt;br&gt;Tamara Govindasamy&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; tamara.govindasamy@ibm.com&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3300" y="1940" width="1360" height="240" as="geometry"/>
+        </mxCell>
+        
+        <!-- INSTITUTIONAL LOGOS AT BOTTOM -->
+        <mxCell id="logos-section" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#E0E0E0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="3520" width="4680" height="120" as="geometry"/>
+        </mxCell>
+        
+        <!-- LOGO PLACEHOLDERS -->
+        <mxCell id="csag-logo" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 14px; color: #2196F3;&quot;&gt;CSAG&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#2196F3;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="100" y="3550" width="80" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="ceshhar-logo" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 14px; color: #00ACC1;&quot;&gt;CeSHHAR&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E0F2F1;strokeColor=#00ACC1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="220" y="3550" width="80" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="upgc-logo" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 14px; color: #7B1FA2;&quot;&gt;UPGC&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#7B1FA2;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="340" y="3550" width="80" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="change-logo" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 14px; color: #1976D2;&quot;&gt;CHanGE&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1976D2;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="460" y="3550" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="ibm-logo" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 18px; font-weight: bold; color: #1565C0;&quot;&gt;IBM Research&lt;br&gt;Africa&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="620" y="3550" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="wits-logo" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 14px; color: #D32F2F;&quot;&gt;WITS&lt;br&gt;PHR&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#D32F2F;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="780" y="3550" width="80" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="michigan-logo" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 14px; color: #FF6F00;&quot;&gt;University of&lt;br&gt;Michigan&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF6F00;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="920" y="3550" width="100" height="60" as="geometry"/>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

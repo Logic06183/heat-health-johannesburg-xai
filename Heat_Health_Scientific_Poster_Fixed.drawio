@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2025-08-06T00:00:00.000Z" agent="draw.io" etag="heat-health-poster-fixed" version="24.6.4" type="device" pages="1">
+  <diagram name="Heat-Health-Poster" id="heat-health-scientific-poster">
+    <mxGraphModel dx="3456" dy="2592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4800" pageHeight="3600" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- BACKGROUND -->
+        <mxCell id="main-background" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry width="4800" height="3600" as="geometry"/>
+        </mxCell>
+        
+        <!-- TOP ORANGE STRIPE -->
+        <mxCell id="top-stripe" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF7043;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry y="0" width="4800" height="40" as="geometry"/>
+        </mxCell>
+        
+        <!-- BOTTOM ORANGE STRIPE -->
+        <mxCell id="bottom-stripe" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F57C00;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry y="3560" width="4800" height="40" as="geometry"/>
+        </mxCell>
+        
+        <!-- HEAT AFRICA LOGO -->
+        <mxCell id="heat-logo" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F57C00;strokeColor=#E65100;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="60" y="70" width="120" height="120" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="heat-text" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 16px; font-weight: bold; color: #FFFFFF;&quot;&gt;HEAT&lt;br/&gt;AFRICA&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="110" width="100" height="40" as="geometry"/>
+        </mxCell>
+        
+        <!-- CONFERENCE LOGO -->
+        <mxCell id="conference-logo" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 28px; font-weight: bold; color: #2E7D32;&quot;&gt;#486&lt;/font&gt;&lt;br/&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 20px; color: #666;&quot;&gt;CHAC2024&lt;br/&gt;Climate and Health&lt;br/&gt;Africa Conference&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4500" y="70" width="240" height="120" as="geometry"/>
+        </mxCell>
+        
+        <!-- MAIN TITLE -->
+        <mxCell id="main-title" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 84px; font-weight: bold; color: #2E7D32;&quot;&gt;Explainable AI for Heat-Health-Socioeconomic Interactions&lt;br/&gt;in African Urban Populations&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="4300" height="200" as="geometry"/>
+        </mxCell>
+        
+        <!-- AUTHORS -->
+        <mxCell id="authors-line" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 36px; color: #424242;&quot;&gt;Authors: Research Team | University of the Witwatersrand, Climate Health Partners&lt;br/&gt;IBM Research - Africa, DS-I Africa Initiative&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="300" width="4300" height="120" as="geometry"/>
+        </mxCell>
+        
+        <!-- LEFT COLUMN -->
+        <mxCell id="left-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E0E0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="60" y="450" width="1480" height="3050" as="geometry"/>
+        </mxCell>
+        
+        <!-- BACKGROUND SECTION -->
+        <mxCell id="background-header" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 48px; font-weight: bold; color: #F57C00;&quot;&gt;Background&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="480" width="400" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="background-text" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 28px; color: #424242;&quot;&gt;Climate change disproportionately affects African urban populations through complex heat-health-socioeconomic interactions. Traditional approaches cannot capture these multi-domain relationships, limiting our ability to develop targeted interventions.&lt;br/&gt;&lt;br/&gt;This study uses explainable AI to quantify predictive relationships between climate exposure, socioeconomic factors, and health outcomes in 2,334 participants from Johannesburg, South Africa.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="560" width="1400" height="280" as="geometry"/>
+        </mxCell>
+        
+        <!-- METHODS SECTION -->
+        <mxCell id="methods-header" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 48px; font-weight: bold; color: #F57C00;&quot;&gt;Methods&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="880" width="400" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- METHODS BOX -->
+        <mxCell id="methods-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#F57C00;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="960" width="1400" height="700" as="geometry"/>
+        </mxCell>
+        
+        <!-- STUDY POPULATION -->
+        <mxCell id="study-pop" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 32px; font-weight: bold; color: #F57C00;&quot;&gt;Study Population&lt;/font&gt;&lt;br/&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 24px; color: #424242;&quot;&gt;• 2,334 participants, Johannesburg (2013-2021)&lt;br/&gt;• Multi-cohort integration across urban gradients&lt;br/&gt;• Biomarker measurements with temporal linkage&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="990" width="650" height="140" as="geometry"/>
+        </mxCell>
+        
+        <!-- DATA INTEGRATION -->
+        <mxCell id="data-integration" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 32px; font-weight: bold; color: #F57C00;&quot;&gt;Multi-Domain Data Integration&lt;/font&gt;&lt;br/&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 22px; color: #424242;&quot;&gt;• &lt;b&gt;Climate:&lt;/b&gt; ERA5, WRF, MODIS, SAAQIS (67 variables)&lt;br/&gt;• &lt;b&gt;Health:&lt;/b&gt; 7 standardized biomarkers&lt;br/&gt;• &lt;b&gt;Socioeconomic:&lt;/b&gt; GCRO surveys (73 variables)&lt;br/&gt;• &lt;b&gt;Temporal matching:&lt;/b&gt; 1-90 day exposure windows&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="990" width="670" height="140" as="geometry"/>
+        </mxCell>
+        
+        <!-- MACHINE LEARNING -->
+        <mxCell id="ml-pipeline" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 32px; font-weight: bold; color: #F57C00;&quot;&gt;Machine Learning Pipeline&lt;/font&gt;&lt;br/&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 22px; color: #424242;&quot;&gt;• &lt;b&gt;Models:&lt;/b&gt; XGBoost, Random Forest, Gradient Boosting&lt;br/&gt;• &lt;b&gt;Explainability:&lt;/b&gt; SHAP analysis for feature importance&lt;br/&gt;• &lt;b&gt;Validation:&lt;/b&gt; 5-fold CV, temporal holdout&lt;br/&gt;• &lt;b&gt;Target:&lt;/b&gt; Standardized biomarker predictions&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1160" width="650" height="140" as="geometry"/>
+        </mxCell>
+        
+        <!-- PROCESSING FLOW -->
+        <mxCell id="flow-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#2E7D32;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1160" width="670" height="140" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="climate-input" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 18px; font-weight: bold; color: #FFFFFF;&quot;&gt;CLIMATE&lt;br/&gt;DATA&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2E7D32;strokeColor=#1B5E20;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1180" width="100" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="se-input" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 18px; font-weight: bold; color: #FFFFFF;&quot;&gt;SOCIO-&lt;br/&gt;ECONOMIC&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F57C00;strokeColor=#E65100;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1250" width="100" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="ml-model" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 18px; font-weight: bold; color: #FFFFFF;&quot;&gt;XAI&lt;br/&gt;MODEL&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF5722;strokeColor=#D84315;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1200" width="100" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="health-output" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 18px; font-weight: bold; color: #FFFFFF;&quot;&gt;HEALTH&lt;br/&gt;OUTCOMES&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9C27B0;strokeColor=#7B1FA2;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1200" width="100" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- ARROWS -->
+        <mxCell id="arrow-1" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#F57C00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="1210" as="sourcePoint"/>
+            <mxPoint x="970" y="1210" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow-2" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#F57C00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="1270" as="sourcePoint"/>
+            <mxPoint x="970" y="1240" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow-3" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#2E7D32;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="1230" as="sourcePoint"/>
+            <mxPoint x="1130" y="1230" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- STUDY AREA -->
+        <mxCell id="study-area" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 32px; font-weight: bold; color: #F57C00;&quot;&gt;Study Area&lt;/font&gt;&lt;br/&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 24px; color: #424242;&quot;&gt;Johannesburg, South Africa&lt;br/&gt;• Urban heat island gradients&lt;br/&gt;• Socioeconomic diversity&lt;br/&gt;• Healthcare access variation&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#2E7D32;strokeWidth=2;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1340" width="600" height="180" as="geometry"/>
+        </mxCell>
+        
+        <!-- KEY FINDINGS BOXES -->
+        <mxCell id="finding-1" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 20px; font-weight: bold; color: #FFFFFF;&quot;&gt;BREAKTHROUGH&lt;br/&gt;FINDING&lt;/font&gt;&lt;br/&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 36px; font-weight: bold; color: #FFFFFF;&quot;&gt;61%&lt;/font&gt;&lt;br/&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 20px; color: #FFFFFF;&quot;&gt;glucose prediction&lt;br/&gt;accuracy&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F57C00;strokeColor=#E65100;strokeWidth=3;align=center;verticalAlign=middle;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1340" width="280" height="180" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="finding-2" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 20px; font-weight: bold; color: #FFFFFF;&quot;&gt;TEMPORAL&lt;br/&gt;PATTERN&lt;/font&gt;&lt;br/&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 36px; font-weight: bold; color: #FFFFFF;&quot;&gt;21-DAY&lt;/font&gt;&lt;br/&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 20px; color: #FFFFFF;&quot;&gt;optimal exposure&lt;br/&gt;windows&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2E7D32;strokeColor=#1B5E20;strokeWidth=3;align=center;verticalAlign=middle;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1340" width="280" height="180" as="geometry"/>
+        </mxCell>
+        
+        <!-- QR CODE -->
+        <mxCell id="qr-code" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 18px; font-weight: bold; color: #424242;&quot;&gt;QR CODE&lt;br/&gt;&lt;br/&gt;Full Paper and&lt;br/&gt;Supplementary&lt;br/&gt;Materials&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#424242;strokeWidth=2;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1560" width="180" height="180" as="geometry"/>
+        </mxCell>
+        
+        <!-- MIDDLE COLUMN -->
+        <mxCell id="middle-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E0E0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="450" width="1560" height="3050" as="geometry"/>
+        </mxCell>
+        
+        <!-- RESULTS HEADER -->
+        <mxCell id="results-header" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 48px; font-weight: bold; color: #2E7D32;&quot;&gt;Key Results&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="480" width="400" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- FIGURE 1: MODEL PERFORMANCE -->
+        <mxCell id="figure1-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#2E7D32;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="570" width="1480" height="450" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="figure1-title" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 28px; font-weight: bold; color: #2E7D32;&quot;&gt;Figure 1: Model Performance Across Biomarkers&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="600" width="1400" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="figure1-content" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 22px; color: #424242;&quot;&gt;• Glucose metabolism: R² = 0.611 (excellent prediction)&lt;br/&gt;• Diastolic BP: R² = 0.141 (moderate prediction)&lt;br/&gt;• Systolic BP: R² = 0.115 (moderate prediction)&lt;br/&gt;• Random Forest consistently outperformed other models&lt;br/&gt;&lt;br/&gt;[INSERT MODEL PERFORMANCE COMPARISON CHART]&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="660" width="1400" height="330" as="geometry"/>
+        </mxCell>
+        
+        <!-- FIGURE 2: TEMPORAL PATTERNS -->
+        <mxCell id="figure2-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#F57C00;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1060" width="1480" height="450" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="figure2-title" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 28px; font-weight: bold; color: #F57C00;&quot;&gt;Figure 2: Temporal Lag Effects&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1090" width="1400" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="figure2-content" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 22px; color: #424242;&quot;&gt;• 21-day temperature windows optimal for prediction&lt;br/&gt;• Cumulative exposure effects dominate over acute responses&lt;br/&gt;• Peak performance at 21 days suggests physiological adaptation timescales&lt;br/&gt;• Early season heat events show stronger health impacts&lt;br/&gt;&lt;br/&gt;[INSERT TEMPORAL LAG ANALYSIS CHART]&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1150" width="1400" height="330" as="geometry"/>
+        </mxCell>
+        
+        <!-- FIGURE 3: SHAP ANALYSIS -->
+        <mxCell id="figure3-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#2E7D32;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1550" width="1480" height="450" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="figure3-title" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 28px; font-weight: bold; color: #2E7D32;&quot;&gt;Figure 3: SHAP Feature Importance Analysis&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1580" width="1400" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="figure3-content" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 22px; color: #424242;&quot;&gt;• Climate variables: 45% of total prediction importance&lt;br/&gt;• Socioeconomic factors: 32% of prediction importance&lt;br/&gt;• Age × Temperature interactions most critical&lt;br/&gt;• Housing quality emerges as key vulnerability factor&lt;br/&gt;&lt;br/&gt;[INSERT SHAP WATERFALL PLOT AND FEATURE IMPORTANCE]&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1640" width="1400" height="330" as="geometry"/>
+        </mxCell>
+        
+        <!-- CONCEPTUAL FRAMEWORK -->
+        <mxCell id="framework-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#757575;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="2040" width="1480" height="300" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="framework-title" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 28px; font-weight: bold; color: #424242;&quot;&gt;Conceptual Framework&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="2070" width="1400" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="climate-comp" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 20px; font-weight: bold; color: #FFFFFF;&quot;&gt;CLIMATE&lt;br/&gt;EXPOSURE&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2E7D32;strokeColor=#1B5E20;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="2130" width="200" height="80" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="se-comp" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 20px; font-weight: bold; color: #FFFFFF;&quot;&gt;SOCIO-&lt;br/&gt;ECONOMIC&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F57C00;strokeColor=#E65100;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="2230" width="200" height="80" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="interaction-comp" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 20px; font-weight: bold; color: #424242;&quot;&gt;XAI&lt;br/&gt;ANALYSIS&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEB3B;strokeColor=#F57F17;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="2180" width="160" height="80" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="health-comp" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 20px; font-weight: bold; color: #FFFFFF;&quot;&gt;HEALTH&lt;br/&gt;OUTCOMES&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9C27B0;strokeColor=#7B1FA2;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2260" y="2180" width="200" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- Framework Arrows -->
+        <mxCell id="fw-arrow1" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#F57C00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1920" y="2170" as="sourcePoint"/>
+            <mxPoint x="1980" y="2200" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="fw-arrow2" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#F57C00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1920" y="2270" as="sourcePoint"/>
+            <mxPoint x="1980" y="2240" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="fw-arrow3" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#2E7D32;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2180" y="2220" as="sourcePoint"/>
+            <mxPoint x="2240" y="2220" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- RIGHT COLUMN -->
+        <mxCell id="right-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E0E0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3220" y="450" width="1520" height="3050" as="geometry"/>
+        </mxCell>
+        
+        <!-- VULNERABILITY SECTION -->
+        <mxCell id="vuln-header" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 48px; font-weight: bold; color: #F57C00;&quot;&gt;Socioeconomic Vulnerability&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3260" y="480" width="1400" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- FIGURE 4: VULNERABILITY -->
+        <mxCell id="figure4-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#2E7D32;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3260" y="570" width="1440" height="400" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="figure4-title" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 26px; font-weight: bold; color: #2E7D32;&quot;&gt;Figure 4: Heat Vulnerability Distribution&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3300" y="600" width="1360" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="figure4-content" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 20px; color: #424242;&quot;&gt;• Heat vulnerability index: -650.5 to +0.5&lt;br/&gt;• 18.7% high vulnerability (index &amp;lt; -300)&lt;br/&gt;• Housing quality: 42% contribution to vulnerability&lt;br/&gt;• 1,300-fold gradient across population&lt;br/&gt;&lt;br/&gt;[INSERT VULNERABILITY DISTRIBUTION HISTOGRAM]&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3300" y="660" width="1360" height="280" as="geometry"/>
+        </mxCell>
+        
+        <!-- FIGURE 5: GENDER DIFFERENCES -->
+        <mxCell id="figure5-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#F57C00;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3260" y="1010" width="1440" height="380" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="figure5-title" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 26px; font-weight: bold; color: #F57C00;&quot;&gt;Figure 5: Gender-Specific Heat Responses&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3300" y="1040" width="1360" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="figure5-content" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 20px; color: #424242;&quot;&gt;• Females: 62% greater glucose sensitivity to heat&lt;br/&gt;• Males: 38% greater blood pressure sensitivity&lt;br/&gt;• Temperature-sex correlation: r = 0.116&lt;br/&gt;&lt;br/&gt;[INSERT GENDER COMPARISON ANALYSIS]&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3300" y="1100" width="1360" height="260" as="geometry"/>
+        </mxCell>
+        
+        <!-- POLICY IMPLICATIONS -->
+        <mxCell id="policy-header" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 40px; font-weight: bold; color: #2E7D32;&quot;&gt;Policy Implications&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3260" y="1430" width="1400" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="policy-content" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 22px; font-weight: bold; color: #F57C00;&quot;&gt;Immediate Actions:&lt;/font&gt;&lt;br/&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 20px; color: #424242;&quot;&gt;• Glucose monitoring during 21-day heat windows&lt;br/&gt;• Vulnerability mapping for targeted interventions&lt;br/&gt;• Gender-specific heat-health protocols&lt;br/&gt;&lt;br/&gt;&lt;/font&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 22px; font-weight: bold; color: #F57C00;&quot;&gt;Medium-term Strategies:&lt;/font&gt;&lt;br/&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 20px; color: #424242;&quot;&gt;• Subsidized cooling for high-vulnerability populations&lt;br/&gt;• Housing quality improvement programs&lt;br/&gt;• Healthcare system heat adaptation&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3260" y="1500" width="1440" height="300" as="geometry"/>
+        </mxCell>
+        
+        <!-- CONCLUSIONS -->
+        <mxCell id="conclusions-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#2E7D32;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="3260" y="1840" width="1440" height="480" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="conclusions-header" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 40px; font-weight: bold; color: #2E7D32;&quot;&gt;Conclusions&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3300" y="1880" width="1360" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="conclusions-content" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 20px; color: #424242;&quot;&gt;• &lt;b style=&quot;color: #2E7D32;&quot;&gt;First quantified heat-health-SE relationships&lt;/b&gt; in African urban populations&lt;br/&gt;&lt;br/&gt;• &lt;b style=&quot;color: #2E7D32;&quot;&gt;Glucose metabolism&lt;/b&gt; emerges as primary climate vulnerability indicator&lt;br/&gt;&lt;br/&gt;• &lt;b style=&quot;color: #F57C00;&quot;&gt;21-day exposure windows&lt;/b&gt; require new early warning system approaches&lt;br/&gt;&lt;br/&gt;• &lt;b style=&quot;color: #F57C00;&quot;&gt;1,300-fold vulnerability gradient&lt;/b&gt; enables precision targeting of interventions&lt;br/&gt;&lt;br/&gt;• &lt;b style=&quot;color: #2E7D32;&quot;&gt;Evidence-based framework&lt;/b&gt; ready for policy implementation across African cities&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3300" y="1950" width="1360" height="340" as="geometry"/>
+        </mxCell>
+        
+        <!-- ACKNOWLEDGMENTS -->
+        <mxCell id="acknowledgments" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 18px; color: #666;&quot;&gt;&lt;b&gt;ACKNOWLEDGMENTS:&lt;/b&gt; GCRO, ERA5, WRF, MODIS, SAAQIS, Study participants&lt;br/&gt;&lt;b&gt;FUNDING:&lt;/b&gt; DS-I Africa, Climate Health Research Initiative&lt;br/&gt;&lt;b&gt;ETHICS:&lt;/b&gt; University of the Witwatersrand HREC&lt;br/&gt;&lt;b&gt;CONTACT:&lt;/b&gt; johannesburg.climate.health@wits.ac.za&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3300" y="2360" width="1360" height="120" as="geometry"/>
+        </mxCell>
+        
+        <!-- INSTITUTIONAL LOGOS -->
+        <mxCell id="logos-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#E0E0E0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="3520" width="4680" height="120" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="wits-logo" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 14px; color: #D32F2F;&quot;&gt;WITS&lt;br/&gt;UNIVERSITY&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#D32F2F;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="150" y="3550" width="100" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="ibm-logo" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 16px; font-weight: bold; color: #1565C0;&quot;&gt;IBM Research&lt;br/&gt;Africa&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="300" y="3550" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="dsi-logo" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 14px; color: #2196F3;&quot;&gt;DS-I Africa&lt;br/&gt;Initiative&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#2196F3;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="470" y="3550" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="chac-logo" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 14px; color: #2E7D32;&quot;&gt;CHAC 2024&lt;br/&gt;Conference&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#2E7D32;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="640" y="3550" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
