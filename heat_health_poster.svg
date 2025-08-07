@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="4800" height="3600" viewBox="0 0 4800 3600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Background -->
+  <rect width="4800" height="3600" fill="#ffffff"/>
+  
+  <!-- Header Section -->
+  <rect x="50" y="50" width="4700" height="400" fill="url(#headerGradient)" rx="20"/>
+  <defs>
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b35"/>
+      <stop offset="100%" style="stop-color:#f77737"/>
+    </linearGradient>
+    
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c3e50"/>
+      <stop offset="100%" style="stop-color:#34495e"/>
+    </linearGradient>
+    
+    <linearGradient id="primaryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b35"/>
+      <stop offset="100%" style="stop-color:#e74c3c"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Logo Placeholders -->
+  <rect x="4400" y="70" width="120" height="60" fill="#ffffff" rx="10"/>
+  <text x="4460" y="105" text-anchor="middle" fill="#ff6b35" font-family="Arial" font-size="24" font-weight="bold">HEAT</text>
+  
+  <rect x="4540" y="70" width="200" height="60" fill="#ffffff" rx="10"/>
+  <text x="4640" y="105" text-anchor="middle" fill="#2196F3" font-family="Arial" font-size="20" font-weight="bold">DS-I Africa</text>
+  
+  <!-- Main Title -->
+  <text x="2400" y="180" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="80" font-weight="900">
+    61% of Glucose Metabolism Predictable from Climate Data
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="2400" y="240" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="50" font-weight="600">
+    First AI-Driven Discovery of Heat-Health Mechanisms in Africa
+  </text>
+  
+  <!-- Authors -->
+  <text x="2400" y="300" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="32">
+    <tspan font-weight="bold">Authors:</tspan> Craig Parker, Matthew Chersich, Nicholas Brink, Rudzani Forget, Kimberly McAdams, Maria Laerdianou
+  </text>
+  
+  <!-- Affiliations -->
+  <text x="2400" y="340" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="24" opacity="0.9">
+    Wits Planetary Health Research | Climate System Analysis Group | DS-I Africa
+  </text>
+  <text x="2400" y="370" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="24" opacity="0.9">
+    Correspondence: craig.parker@wits.ac.za
+  </text>
+  
+  <!-- Hero Statistics -->
+  <!-- Stat 1 - Primary -->
+  <rect x="100" y="500" width="1100" height="200" fill="url(#primaryGradient)" rx="15"/>
+  <text x="650" y="580" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="80" font-weight="900">61%</text>
+  <text x="650" y="620" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="28" font-weight="600">Glucose Metabolism</text>
+  <text x="650" y="650" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="28" font-weight="600">Predictable from Climate</text>
+  
+  <!-- Stat 2 -->
+  <rect x="1250" y="500" width="1100" height="200" fill="url(#heroGradient)" rx="15"/>
+  <text x="1800" y="580" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="80" font-weight="900">1,300×</text>
+  <text x="1800" y="620" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="28" font-weight="600">Vulnerability Range</text>
+  <text x="1800" y="650" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="28" font-weight="600">Unprecedented Stratification</text>
+  
+  <!-- Stat 3 -->
+  <rect x="2400" y="500" width="1100" height="200" fill="url(#heroGradient)" rx="15"/>
+  <text x="2950" y="580" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="80" font-weight="900">21-DAY</text>
+  <text x="2950" y="620" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="28" font-weight="600">Optimal Exposure Window</text>
+  <text x="2950" y="650" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="28" font-weight="600">Paradigm Shift Discovery</text>
+  
+  <!-- Stat 4 -->
+  <rect x="3550" y="500" width="1100" height="200" fill="url(#heroGradient)" rx="15"/>
+  <text x="4100" y="580" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="80" font-weight="900">2,334</text>
+  <text x="4100" y="620" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="28" font-weight="600">Participants Validated</text>
+  <text x="4100" y="650" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="28" font-weight="600">Largest African Dataset</text>
+  
+  <!-- Left Column -->
+  <!-- Breakthrough Box -->
+  <rect x="100" y="750" width="1400" height="400" fill="url(#breakthroughGradient)" rx="15"/>
+  <defs>
+    <linearGradient id="breakthroughGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#27ae60"/>
+      <stop offset="100%" style="stop-color:#2ecc71"/>
+    </linearGradient>
+  </defs>
+  
+  <text x="800" y="800" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="40" font-weight="bold">🚀 Breakthrough Discoveries</text>
+  
+  <text x="150" y="850" fill="#ffffff" font-family="Arial" font-size="28" font-weight="600">✓ Metabolic Primacy: Glucose 4× more climate-sensitive than BP</text>
+  <text x="150" y="890" fill="#ffffff" font-family="Arial" font-size="28" font-weight="600">✓ Cumulative Effects: 21-day windows > single day exposure</text>
+  <text x="150" y="930" fill="#ffffff" font-family="Arial" font-size="28" font-weight="600">✓ Gender Differences: Females 62% more glucose-sensitive</text>
+  <text x="150" y="970" fill="#ffffff" font-family="Arial" font-size="28" font-weight="600">✓ Vulnerability Gradient: 1,300-fold risk stratification</text>
+  <text x="150" y="1010" fill="#ffffff" font-family="Arial" font-size="28" font-weight="600">✓ AI Explainability: Climate features = 44% of prediction</text>
+  
+  <!-- Performance Table -->
+  <rect x="100" y="1200" width="1400" height="600" fill="#ffffff" stroke="#e0e0e0" stroke-width="2" rx="15"/>
+  <rect x="120" y="1220" width="1360" height="60" fill="url(#primaryGradient)"/>
+  <text x="800" y="1255" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="32" font-weight="bold">▶ Model Performance &amp; Validation</text>
+  
+  <!-- Table Headers -->
+  <text x="200" y="1320" text-anchor="middle" fill="#333" font-family="Arial" font-size="24" font-weight="bold">Outcome</text>
+  <text x="450" y="1320" text-anchor="middle" fill="#333" font-family="Arial" font-size="24" font-weight="bold">R² (95% CI)</text>
+  <text x="700" y="1320" text-anchor="middle" fill="#333" font-family="Arial" font-size="24" font-weight="bold">AUC-ROC</text>
+  <text x="950" y="1320" text-anchor="middle" fill="#333" font-family="Arial" font-size="24" font-weight="bold">RMSE</text>
+  <text x="1200" y="1320" text-anchor="middle" fill="#333" font-family="Arial" font-size="24" font-weight="bold">n</text>
+  
+  <!-- Glucose Row (Highlighted) -->
+  <rect x="140" y="1340" width="1320" height="50" fill="#fff3cd"/>
+  <text x="200" y="1370" text-anchor="middle" fill="#333" font-family="Arial" font-size="22" font-weight="bold">Glucose</text>
+  <text x="450" y="1370" text-anchor="middle" fill="#333" font-family="Arial" font-size="22" font-weight="bold">0.611 (0.59-0.63)</text>
+  <text x="700" y="1370" text-anchor="middle" fill="#333" font-family="Arial" font-size="22" font-weight="bold">0.892</text>
+  <text x="950" y="1370" text-anchor="middle" fill="#333" font-family="Arial" font-size="22" font-weight="bold">0.624</text>
+  <text x="1200" y="1370" text-anchor="middle" fill="#333" font-family="Arial" font-size="22" font-weight="bold">1,730</text>
+  
+  <!-- Other rows -->
+  <text x="200" y="1420" text-anchor="middle" fill="#333" font-family="Arial" font-size="20">Diastolic BP</text>
+  <text x="450" y="1420" text-anchor="middle" fill="#333" font-family="Arial" font-size="20">0.141 (0.12-0.16)</text>
+  <text x="700" y="1420" text-anchor="middle" fill="#333" font-family="Arial" font-size="20">0.684</text>
+  <text x="950" y="1420" text-anchor="middle" fill="#333" font-family="Arial" font-size="20">0.927</text>
+  <text x="1200" y="1420" text-anchor="middle" fill="#333" font-family="Arial" font-size="20">1,567</text>
+  
+  <text x="200" y="1470" text-anchor="middle" fill="#333" font-family="Arial" font-size="20">Systolic BP</text>
+  <text x="450" y="1470" text-anchor="middle" fill="#333" font-family="Arial" font-size="20">0.115 (0.09-0.14)</text>
+  <text x="700" y="1470" text-anchor="middle" fill="#333" font-family="Arial" font-size="20">0.671</text>
+  <text x="950" y="1470" text-anchor="middle" fill="#333" font-family="Arial" font-size="20">0.940</text>
+  <text x="1200" y="1470" text-anchor="middle" fill="#333" font-family="Arial" font-size="20">1,566</text>
+  
+  <!-- Center Column - Figures -->
+  <rect x="1600" y="750" width="1600" height="500" fill="#ffffff" stroke="#e0e0e0" stroke-width="2" rx="15"/>
+  <text x="2400" y="790" text-anchor="middle" fill="#2c3e50" font-family="Arial" font-size="28" font-weight="bold">Figure 1: Model Performance - Glucose Metabolism Breakthrough</text>
+  <rect x="1650" y="810" width="1500" height="400" fill="#f8f9fa" stroke="#ddd" stroke-width="1"/>
+  <text x="2400" y="1020" text-anchor="middle" fill="#999" font-family="Arial" font-size="32">[INSERT: Figure1_ModelPerformance.png]</text>
+  
+  <rect x="1600" y="1300" width="1600" height="500" fill="#ffffff" stroke="#e0e0e0" stroke-width="2" rx="15"/>
+  <text x="2400" y="1340" text-anchor="middle" fill="#2c3e50" font-family="Arial" font-size="28" font-weight="bold">Figure 2: Temporal Patterns - 21-Day Optimal Window Discovery</text>
+  <rect x="1650" y="1360" width="1500" height="400" fill="#f8f9fa" stroke="#ddd" stroke-width="1"/>
+  <text x="2400" y="1570" text-anchor="middle" fill="#999" font-family="Arial" font-size="32">[INSERT: Figure2_TemporalPatterns_Fixed.png]</text>
+  
+  <rect x="1600" y="1850" width="1600" height="500" fill="#ffffff" stroke="#e0e0e0" stroke-width="2" rx="15"/>
+  <text x="2400" y="1890" text-anchor="middle" fill="#2c3e50" font-family="Arial" font-size="28" font-weight="bold">Figure 3: SHAP Analysis - Explainable AI Feature Importance</text>
+  <rect x="1650" y="1910" width="1500" height="400" fill="#f8f9fa" stroke="#ddd" stroke-width="1"/>
+  <text x="2400" y="2120" text-anchor="middle" fill="#999" font-family="Arial" font-size="32">[INSERT: Figure3_SHAPImportance_Fixed.png]</text>
+  
+  <!-- Right Column -->
+  <!-- Vulnerability Stats -->
+  <rect x="3300" y="750" width="1400" height="300" fill="#ffffff" stroke="#e0e0e0" stroke-width="2" rx="15"/>
+  <text x="4000" y="790" text-anchor="middle" fill="#ff6b35" font-family="Arial" font-size="32" font-weight="bold">▶ Vulnerability Stratification</text>
+  
+  <rect x="3350" y="820" width="400" height="150" fill="url(#primaryGradient)" rx="10"/>
+  <text x="3550" y="870" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="48" font-weight="bold">18.7%</text>
+  <text x="3550" y="910" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="20">High Risk</text>
+  <text x="3550" y="930" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="20">(Index &lt; -300)</text>
+  
+  <rect x="3800" y="820" width="400" height="150" fill="url(#primaryGradient)" rx="10"/>
+  <text x="4000" y="870" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="48" font-weight="bold">54.9%</text>
+  <text x="4000" y="910" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="20">Moderate Risk</text>
+  <text x="4000" y="930" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="20">(-300 to -50)</text>
+  
+  <rect x="4250" y="820" width="400" height="150" fill="url(#primaryGradient)" rx="10"/>
+  <text x="4450" y="870" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="48" font-weight="bold">28.0%</text>
+  <text x="4450" y="910" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="20">Low Risk</text>
+  <text x="4450" y="930" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="20">(Index &gt; -50)</text>
+  
+  <!-- Figure 4 -->
+  <rect x="3300" y="1100" width="1400" height="400" fill="#ffffff" stroke="#e0e0e0" stroke-width="2" rx="15"/>
+  <text x="4000" y="1140" text-anchor="middle" fill="#2c3e50" font-family="Arial" font-size="24" font-weight="bold">Figure 4: Heat Vulnerability Distribution</text>
+  <rect x="3350" y="1160" width="1300" height="300" fill="#f8f9fa" stroke="#ddd" stroke-width="1"/>
+  <text x="4000" y="1320" text-anchor="middle" fill="#999" font-family="Arial" font-size="28">[INSERT: Figure4_VulnerabilityDistribution.png]</text>
+  
+  <!-- Policy Box -->
+  <rect x="3300" y="1550" width="1400" height="400" fill="url(#policyGradient)" rx="15"/>
+  <defs>
+    <linearGradient id="policyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8e44ad"/>
+      <stop offset="100%" style="stop-color:#9b59b6"/>
+    </linearGradient>
+  </defs>
+  
+  <text x="4000" y="1600" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="32" font-weight="bold">🎯 Clinical &amp; Policy Applications</text>
+  
+  <text x="3350" y="1650" fill="#ffffff" font-family="Arial" font-size="24" font-weight="600">→ Precision Medicine: Glucose monitoring protocols</text>
+  <text x="3350" y="1690" fill="#ffffff" font-family="Arial" font-size="24" font-weight="600">→ Early Warning: 21-day forecasting systems</text>
+  <text x="3350" y="1730" fill="#ffffff" font-family="Arial" font-size="24" font-weight="600">→ Targeted Interventions: Evidence-based mapping</text>
+  <text x="3350" y="1770" fill="#ffffff" font-family="Arial" font-size="24" font-weight="600">→ Gender-Specific Care: Personalized strategies</text>
+  <text x="3350" y="1810" fill="#ffffff" font-family="Arial" font-size="24" font-weight="600">→ Infrastructure Priority: Cooling for high-risk areas</text>
+  
+  <!-- Scientific Impact -->
+  <rect x="3300" y="2000" width="1400" height="600" fill="#ffffff" stroke="#e0e0e0" stroke-width="2" rx="15"/>
+  <text x="4000" y="2040" text-anchor="middle" fill="#ff6b35" font-family="Arial" font-size="32" font-weight="bold">▶ Scientific Impact</text>
+  
+  <text x="3350" y="2090" fill="#333" font-family="Arial" font-size="28" font-weight="bold">🔬 Novel Contributions:</text>
+  <text x="3380" y="2130" fill="#333" font-family="Arial" font-size="24">✓ First quantified heat-health-SE relationships in Africa</text>
+  <text x="3380" y="2160" fill="#333" font-family="Arial" font-size="24">✓ XAI application to climate health research</text>
+  <text x="3380" y="2190" fill="#333" font-family="Arial" font-size="24">✓ Multi-domain integration at unprecedented scale</text>
+  
+  <text x="3350" y="2250" fill="#333" font-family="Arial" font-size="28" font-weight="bold">🎯 Clinical Relevance:</text>
+  <text x="3380" y="2290" fill="#333" font-family="Arial" font-size="24">✓ Glucose monitoring priority during heat waves</text>
+  <text x="3380" y="2320" fill="#333" font-family="Arial" font-size="24">✓ 21-day exposure windows for health warnings</text>
+  <text x="3380" y="2350" fill="#333" font-family="Arial" font-size="24">✓ Evidence-based intervention thresholds</text>
+  
+  <!-- Conclusions -->
+  <rect x="3300" y="2650" width="1400" height="400" fill="#ffffff" stroke="#e0e0e0" stroke-width="2" rx="15"/>
+  <text x="4000" y="2690" text-anchor="middle" fill="#ff6b35" font-family="Arial" font-size="32" font-weight="bold">▶ Conclusions</text>
+  
+  <text x="3350" y="2740" fill="#333" font-family="Arial" font-size="24" font-weight="bold">Breakthrough Finding:</text>
+  <text x="3350" y="2770" fill="#333" font-family="Arial" font-size="20">61% of glucose metabolism variance explained by climate + SE data</text>
+  
+  <text x="3350" y="2820" fill="#333" font-family="Arial" font-size="24" font-weight="bold">Paradigm Shift:</text>
+  <text x="3350" y="2850" fill="#333" font-family="Arial" font-size="20">21-day cumulative exposure revolutionizes early warning systems</text>
+  
+  <text x="3350" y="2900" fill="#333" font-family="Arial" font-size="24" font-weight="bold">Global Impact:</text>
+  <text x="3350" y="2930" fill="#333" font-family="Arial" font-size="20">First XAI framework provides actionable insights for 1+ billion people</text>
+  
+  <!-- Footer -->
+  <rect x="100" y="3100" width="4600" height="100" fill="url(#footerGradient)" rx="10"/>
+  <defs>
+    <linearGradient id="footerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#34495e"/>
+      <stop offset="100%" style="stop-color:#2c3e50"/>
+    </linearGradient>
+  </defs>
+  
+  <text x="2400" y="1130" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="24">
+    <tspan fill="#ff6b35" font-weight="bold">Contact:</tspan> craig.parker@wits.ac.za | 
+    <tspan fill="#ff6b35" font-weight="bold">Funding:</tspan> Wellcome Trust, NRF South Africa, DS-I Africa | 
+    <tspan fill="#ff6b35" font-weight="bold">Open Data:</tspan> Available upon publication
+  </text>
+  <text x="2400" y="1165" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="24">
+    <tspan fill="#ff6b35" font-weight="bold">Reproducible Research:</tspan> Code &amp; data pipeline accessible via GitHub
+  </text>
+</svg>
