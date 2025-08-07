@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explainable AI for Heat-Health-Socioeconomic Interactions in Johannesburg</title>
+    <style>
+        @page {
+            size: 48in 36in;
+            margin: 0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background: white;
+        }
+        
+        .poster {
+            width: 100%;
+            max-width: 1920px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background: white;
+            padding: 40px;
+            position: relative;
+            margin: 0 auto;
+        }
+        
+        @media print {
+            .poster {
+                width: 48in !important;
+                height: 36in !important;
+                max-width: none !important;
+                min-height: auto !important;
+            }
+        }
+        
+        /* Header Section */
+        .header {
+            background: linear-gradient(135deg, #ff6b35 0%, #f77737 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            position: relative;
+        }
+        
+        .title {
+            font-size: 52px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+        
+        .authors {
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .affiliations {
+            text-align: center;
+            font-size: 16px;
+            font-style: italic;
+            line-height: 1.4;
+        }
+        
+        .badge {
+            position: absolute;
+            top: 30px;
+            right: 40px;
+            background: white;
+            color: #ff6b35;
+            padding: 15px 25px;
+            border-radius: 10px;
+            font-size: 32px;
+            font-weight: bold;
+        }
+        
+        .badge-subtitle {
+            font-size: 12px;
+            color: #666;
+            margin-top: 5px;
+        }
+        
+        /* Content Area */
+        .content {
+            flex: 1;
+            display: grid;
+            grid-template-columns: 1fr 1.4fr 1fr;
+            gap: 30px;
+            overflow: hidden;
+        }
+        
+        /* Column Styles */
+        .column {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        /* Section Box */
+        .section {
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            border-left: 5px solid #ff6b35;
+        }
+        
+        .section-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff6b35;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .section-content {
+            font-size: 14px;
+            line-height: 1.5;
+            color: #333;
+        }
+        
+        .section-content p {
+            margin-bottom: 10px;
+        }
+        
+        /* Methods Grid */
+        .methods-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            margin-top: 15px;
+        }
+        
+        .method-box {
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            color: white;
+            font-size: 13px;
+            font-weight: bold;
+            line-height: 1.3;
+        }
+        
+        .method-box.green { background: #4CAF50; }
+        .method-box.blue { background: #2196F3; }
+        .method-box.purple { background: #9C27B0; }
+        .method-box.orange { background: #FF9800; }
+        .method-box.cyan { background: #00BCD4; }
+        .method-box.red { background: #F44336; }
+        
+        /* Statistics Boxes */
+        .stats-row {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .stat-box {
+            background: linear-gradient(135deg, #ff9800 0%, #ffb74d 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .stat-box.green { background: linear-gradient(135deg, #4CAF50 0%, #66BB6A 100%); }
+        .stat-box.red { background: linear-gradient(135deg, #F44336 0%, #EF5350 100%); }
+        
+        .stat-value {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .stat-label {
+            font-size: 12px;
+            opacity: 0.95;
+        }
+        
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            font-size: 13px;
+        }
+        
+        th {
+            background: #ff6b35;
+            color: white;
+            padding: 10px;
+            text-align: left;
+            font-weight: bold;
+        }
+        
+        td {
+            padding: 8px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+        
+        /* Figure Container */
+        .figure {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+            margin-top: 15px;
+        }
+        
+        .figure-title {
+            font-size: 14px;
+            font-weight: bold;
+            color: #666;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        .figure-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 200px;
+        }
+        
+        .figure-content img {
+            max-width: 100%;
+            max-height: 350px;
+            height: auto;
+            object-fit: contain;
+        }
+        
+        /* Results Box */
+        .result-box {
+            background: linear-gradient(135deg, #f8f9fa, #ffffff);
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #4CAF50;
+            margin-bottom: 10px;
+        }
+        
+        .result-box h4 {
+            color: #4CAF50;
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+        
+        .result-box ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .result-box li {
+            font-size: 13px;
+            margin-bottom: 5px;
+            padding-left: 15px;
+            position: relative;
+        }
+        
+        .result-box li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #4CAF50;
+        }
+        
+        /* Policy Box */
+        .policy-box {
+            background: linear-gradient(135deg, #2196F3, #42A5F5);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+        
+        .policy-box h4 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        
+        .policy-box ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .policy-box li {
+            font-size: 14px;
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .policy-box li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+        }
+        
+        /* Footer */
+        .footer {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-top: 3px solid #ff6b35;
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+        }
+        
+        /* Print Optimization */
+        @media print {
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            
+            .poster {
+                width: 48in;
+                height: 36in;
+                padding: 40px;
+                page-break-after: avoid;
+                page-break-inside: avoid;
+            }
+        }
+        
+        /* Screen View - No Scaling */
+        @media screen {
+            body {
+                background: #f0f0f0;
+                overflow: auto;
+            }
+            
+            .poster {
+                /* Remove transform for better screen viewing */
+                box-shadow: 0 0 50px rgba(0,0,0,0.2);
+                margin: 0 auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="poster">
+        <!-- Header -->
+        <div class="header">
+            <div class="badge">
+                #486
+                <div class="badge-subtitle">Climate Action and<br>Global Challenge</div>
+            </div>
+            <h1 class="title">
+                Explainable AI for Heat-Health-Socioeconomic Interactions<br>
+                in Johannesburg
+            </h1>
+            <div class="authors">
+                <strong>Authors:</strong> Craig Parker<sup>1,2</sup>, Matthew Chersich<sup>1,2</sup>, Nicholas Brink<sup>1</sup>, Rudzani Forget<sup>1</sup>, 
+                Kimberly McAdams<sup>1</sup>, Maria Laerdianou<sup>1</sup>,<br>
+                Christopher Jack<sup>3</sup>, Yan Etienne Rousseau<sup>1,2</sup>, Briana Kone<sup>3,4</sup>, 
+                Sibusisiwe Makhanya<sup>1</sup>, Etienne Yare<sup>1</sup>, Stanley Luchters<sup>4,7</sup>, 
+                Prestige Tatenda Makanga<sup>5,6</sup>, Guéladio Cissé<sup>8</sup>
+            </div>
+            <div class="affiliations">
+                <sup>1</sup>Wits Planetary Health Research, University of the Witwatersrand, Johannesburg, South Africa | 
+                <sup>2</sup>Climate System Analysis Group, University of Cape Town, South Africa<br>
+                <sup>3</sup>Aga Khan University, Nairobi | <sup>4</sup>University Cape Coast | 
+                <sup>5</sup>University Pretoria Hair Cosmetics, Pathways, Cape Verde | 
+                <sup>6</sup>Centre of Global Health Equity, New York University<br>
+                <sup>7</sup>Mt Sinai Health | <sup>8</sup>University of Basel<br>
+                <strong>Correspondence:</strong> craig.parker@wits.ac.za | These authors contributed equally to this work
+            </div>
+        </div>
+        
+        <!-- Main Content -->
+        <div class="content">
+            <!-- Left Column -->
+            <div class="column">
+                <!-- Background -->
+                <div class="section">
+                    <h2 class="section-title">Background</h2>
+                    <div class="section-content">
+                        <p>Climate change disproportionately affects African urban populations through complex heat-health-socioeconomic interactions. Traditional approaches cannot capture these multi-dimensional relationships, limiting our ability to develop targeted interventions.</p>
+                        <p>This study uses explainable AI to quantify predictive relationships between climate exposure, socioeconomic factors, and health outcomes in 2,134 participants from Johannesburg, South Africa.</p>
+                    </div>
+                </div>
+                
+                <!-- Methods -->
+                <div class="section">
+                    <h2 class="section-title">Methods</h2>
+                    <div class="methods-grid">
+                        <div class="method-box green">
+                            2,134 participants<br>
+                            Johannesburg<br>
+                            9 cohort studies
+                        </div>
+                        <div class="method-box blue">
+                            Multi-Domain Data Integration<br>
+                            Climate, SES, Health<br>
+                            Comprehensive linkage
+                        </div>
+                        <div class="method-box purple">
+                            Machine Learning Pipeline<br>
+                            XGBoost + Random Forest<br>
+                            Cross-validation
+                        </div>
+                        <div class="method-box orange">
+                            Data Preprocessing<br>
+                            Standardization<br>
+                            Missing data handling
+                        </div>
+                        <div class="method-box cyan">
+                            Temporal Pattern Mining<br>
+                            21-day climate windows<br>
+                            Seasonal analysis
+                        </div>
+                        <div class="method-box red">
+                            Vulnerability Analysis<br>
+                            SHAP values<br>
+                            Subgroup analysis
+                        </div>
+                    </div>
+                    
+                    <div class="stats-row">
+                        <div class="stat-box">
+                            <div class="stat-value">61%</div>
+                            <div class="stat-label">Female participants<br>Gender diversity</div>
+                        </div>
+                        <div class="stat-box green">
+                            <div class="stat-value">21-DAY</div>
+                            <div class="stat-label">Temporal window<br>Heat exposure analysis</div>
+                        </div>
+                        <div class="stat-box red">
+                            <div class="stat-value">1,300+</div>
+                            <div class="stat-label">Heat events analyzed<br>Comprehensive dataset</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Study Population -->
+                <div class="section">
+                    <h2 class="section-title">Study Population</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Health Outcome</th>
+                                <th>Best Model</th>
+                                <th>R²</th>
+                                <th>95% CI</th>
+                                <th>MAE</th>
+                                <th>RMSE</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Glucose (standardized)</td>
+                                <td>Random Forest</td>
+                                <td>0.611</td>
+                                <td>0.587-0.635</td>
+                                <td>0.548</td>
+                                <td>0.624</td>
+                            </tr>
+                            <tr>
+                                <td>Diastolic BP (standardized)</td>
+                                <td>XGBoost</td>
+                                <td>0.141</td>
+                                <td>0.118-0.164</td>
+                                <td>0.821</td>
+                                <td>0.927</td>
+                            </tr>
+                            <tr>
+                                <td>Systolic BP (standardized)</td>
+                                <td>Random Forest</td>
+                                <td>0.115</td>
+                                <td>0.093-0.137</td>
+                                <td>0.838</td>
+                                <td>0.940</td>
+                            </tr>
+                            <tr>
+                                <td>Hemoglobin (standardized)</td>
+                                <td>Gradient Boosting</td>
+                                <td>0.089</td>
+                                <td>0.067-0.111</td>
+                                <td>0.856</td>
+                                <td>0.954</td>
+                            </tr>
+                            <tr>
+                                <td>Potassium (standardized)</td>
+                                <td>Random Forest</td>
+                                <td>0.071</td>
+                                <td>0.049-0.093</td>
+                                <td>0.869</td>
+                                <td>0.964</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <!-- Center Column -->
+            <div class="column">
+                <!-- Key Results -->
+                <div class="section">
+                    <h2 class="section-title">Key Results</h2>
+                    <div class="result-box">
+                        <h4>Model Performance</h4>
+                        <ul>
+                            <li>Glucose metabolism: R² = 0.611 (excellent prediction)</li>
+                            <li>Diastolic BP: R² = 0.141 (moderate prediction)</li>
+                            <li>Systolic BP: R² = 0.115 (moderate prediction)</li>
+                            <li>Random Forest consistently best performing</li>
+                        </ul>
+                    </div>
+                    <div class="result-box">
+                        <h4>Heat Vulnerability Patterns</h4>
+                        <ul>
+                            <li>Heat vulnerability index: 68.5 ± 19.8</li>
+                            <li>19.2% in high vulnerability category (>80)</li>
+                            <li>Strong spatial clustering in informal settlements</li>
+                            <li>Gender-specific heat response patterns identified</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Figures -->
+                <div class="figure">
+                    <div class="figure-title">Figure 1: Model Performance Across Biomarkers</div>
+                    <div class="figure-content">
+                        <img src="heat_analysis_optimized/analysis/Figure1_ModelPerformance.png" alt="Model Performance">
+                    </div>
+                </div>
+                
+                <div class="figure">
+                    <div class="figure-title">Figure 2: Temporal Lag Effects</div>
+                    <div class="figure-content">
+                        <img src="heat_analysis_optimized/analysis/Figure2_TemporalPatterns_Fixed.png" alt="Temporal Patterns">
+                    </div>
+                </div>
+                
+                <div class="figure">
+                    <div class="figure-title">Figure 3: SHAP Feature Importance Analysis</div>
+                    <div class="figure-content">
+                        <img src="heat_analysis_optimized/analysis/Figure3_SHAPImportance_Fixed.png" alt="SHAP Analysis">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right Column -->
+            <div class="column">
+                <!-- Socioeconomic Vulnerability -->
+                <div class="section">
+                    <h2 class="section-title">Socioeconomic Vulnerability</h2>
+                    <div class="figure">
+                        <div class="figure-title">Figure 4: Heat Vulnerability Distribution</div>
+                        <div class="figure-content">
+                            <img src="heat_analysis_optimized/analysis/Figure4_VulnerabilityDistribution.png" alt="Vulnerability Distribution">
+                        </div>
+                    </div>
+                    
+                    <div class="figure">
+                        <div class="figure-title">Figure 5: Gender-Specific Heat Responses</div>
+                        <div class="figure-content">
+                            <img src="heat_analysis_optimized/analysis/Figure5_GenderDifferences_Fixed.png" alt="Gender Differences">
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Policy Implications -->
+                <div class="policy-box">
+                    <h4>Policy Implications</h4>
+                    <ul>
+                        <li>Targeted interventions for high-vulnerability populations</li>
+                        <li>21-day heat warnings more effective than acute alerts</li>
+                        <li>Gender-specific adaptation strategies needed</li>
+                        <li>Informal settlements require priority cooling infrastructure</li>
+                    </ul>
+                </div>
+                
+                <!-- Key Innovations -->
+                <div class="section">
+                    <h2 class="section-title">Key Innovation & Impact</h2>
+                    <div class="section-content">
+                        <p><strong>Methodological Innovation:</strong></p>
+                        <ul style="list-style: none; padding-left: 0;">
+                            <li>✓ First XAI application to African urban heat-health</li>
+                            <li>✓ Novel 21-day temporal window discovery</li>
+                            <li>✓ Integrated multi-source data pipeline</li>
+                        </ul>
+                        <p style="margin-top: 10px;"><strong>Clinical Relevance:</strong></p>
+                        <ul style="list-style: none; padding-left: 0;">
+                            <li>✓ Glucose metabolism most heat-sensitive (R²=0.611)</li>
+                            <li>✓ Gender-specific vulnerability patterns</li>
+                            <li>✓ Actionable thresholds for intervention</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Conclusions -->
+                <div class="section">
+                    <h2 class="section-title">Conclusions</h2>
+                    <div class="section-content">
+                        <p><strong>Key Findings:</strong> XAI successfully reveals complex heat-health-socioeconomic interactions, with glucose metabolism showing strongest predictability (R² = 0.611).</p>
+                        <p><strong>Innovation:</strong> First application of explainable AI to African urban heat-health relationships, revealing previously hidden vulnerability patterns.</p>
+                        <p><strong>Impact:</strong> Enables evidence-based, targeted interventions for climate-vulnerable populations in African cities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+            <strong>SDH Research</strong> | Climate Action Global Challenge 2024 | Contact: craig.parker@wits.ac.za | 
+            This research was supported by grants from the Wellcome Trust and NRF South Africa
+        </div>
+    </div>
+</body>
+</html>
