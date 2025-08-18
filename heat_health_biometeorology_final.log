@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.15)  18 AUG 2025 21:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.15)  18 AUG 2025 21:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -526,7 +526,7 @@ Package: lineno 2025/01/29 line numbers on paragraphs v5.4
 LaTeX Info: Redefining \\ on input line 3187.
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 39.
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 89
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 91
 .
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1ptm.fd
@@ -537,27 +537,28 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count333
 \l__pdf_internal_box=\box111
 )
-No file heat_health_biometeorology_final.aux.
+(./heat_health_biometeorology_final.aux)
 \openout1 = `heat_health_biometeorology_final.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -614,161 +615,173 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 89.
+Package hyperref Info: Link coloring ON on input line 91.
+
+(./heat_health_biometeorology_final.out)
+(./heat_health_biometeorology_final.out)
 \@outlinefile=\write3
 \openout3 = `heat_health_biometeorology_final.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 92
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 94
 .
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 92.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 94.
 
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 92.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 94.
 
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (981.56732pt too wide) in paragraph at lines 92--92
+Overfull \hbox (895.69675pt too wide) in paragraph at lines 94--94
  [][] 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 9
-4.
+6.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-
-Package natbib Warning: Citation `Mora2017' on page 1 undefined on input line 1
-02.
-
-
-Package natbib Warning: Citation `Watts2021' on page 1 undefined on input line 
-102.
-
-
-Package natbib Warning: Citation `Engelbrecht2015' on page 1 undefined on input
- line 102.
-
-
-Package natbib Warning: Citation `Vogel2019' on page 1 undefined on input line 
-102.
-
-
-Package natbib Warning: Citation `Garland2015' on page 1 undefined on input lin
-e 102.
-
-
-Package natbib Warning: Citation `MacLeod2021' on page 1 undefined on input lin
-e 102.
-
-
 
 [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}]
 
-Package natbib Warning: Citation `Green2019' on page 2 undefined on input line 
-104.
+[2]
+
+[3]
+
+[4]
+Overfull \hbox (36.59105pt too wide) in paragraph at lines 199--224
+ [][] 
+ []
 
 
-Package natbib Warning: Citation `Chersich2018' on page 2 undefined on input li
-ne 104.
+
+[5]
+<heat_analysis_optimized/analysis/Figure1_ModelPerformance.png, id=218, 1000.21
+68pt x 422.0568pt>
+File: heat_analysis_optimized/analysis/Figure1_ModelPerformance.png Graphic fil
+e (type png)
+<use heat_analysis_optimized/analysis/Figure1_ModelPerformance.png>
+Package pdftex.def Info: heat_analysis_optimized/analysis/Figure1_ModelPerforma
+nce.png  used on input line 253.
+(pdftex.def)             Requested size: 409.71692pt x 172.88983pt.
+<heat_analysis_optimized/analysis/Figure2_TemporalPatterns_Fixed.png, id=220, 9
+65.5272pt x 616.9449pt>
+File: heat_analysis_optimized/analysis/Figure2_TemporalPatterns_Fixed.png Graph
+ic file (type png)
+<use heat_analysis_optimized/analysis/Figure2_TemporalPatterns_Fixed.png>
+Package pdftex.def Info: heat_analysis_optimized/analysis/Figure2_TemporalPatte
+rns_Fixed.png  used on input line 268.
+(pdftex.def)             Requested size: 409.71692pt x 261.79802pt.
 
 
-Package natbib Warning: Citation `Gronlund2014' on page 2 undefined on input li
-ne 104.
+[6 <./heat_analysis_optimized/analysis/Figure1_ModelPerformance.png>]
+Overfull \hbox (5.30792pt too wide) in paragraph at lines 279--280
+\T1/ptm/m/n/10.95 phys-i-o-log-i-cal com-pen-sa-tion mech-a-nisms be-come over-
+whelmed be-yond spe-cific ther-mal thresh-olds. Hous-
+ []
+
+<heat_analysis_optimized/analysis/Figure3_SHAPImportance_Fixed.png, id=227, 977
+.8131pt x 761.244pt>
+File: heat_analysis_optimized/analysis/Figure3_SHAPImportance_Fixed.png Graphic
+ file (type png)
+<use heat_analysis_optimized/analysis/Figure3_SHAPImportance_Fixed.png>
+Package pdftex.def Info: heat_analysis_optimized/analysis/Figure3_SHAPImportanc
+e_Fixed.png  used on input line 283.
+(pdftex.def)             Requested size: 409.71692pt x 318.9769pt.
 
 
-Package natbib Warning: Citation `Benmarhnia2015' on page 2 undefined on input 
-line 104.
+[7 <./heat_analysis_optimized/analysis/Figure2_TemporalPatterns_Fixed.png>]
+<heat_analysis_optimized/analysis/Figure4_VulnerabilityDistribution.png, id=235
+, 1071.2823pt x 855.6768pt>
+File: heat_analysis_optimized/analysis/Figure4_VulnerabilityDistribution.png Gr
+aphic file (type png)
+<use heat_analysis_optimized/analysis/Figure4_VulnerabilityDistribution.png>
+Package pdftex.def Info: heat_analysis_optimized/analysis/Figure4_Vulnerability
+Distribution.png  used on input line 298.
+(pdftex.def)             Requested size: 409.71692pt x 327.26266pt.
 
 
-Package natbib Warning: Citation `Kenny2018' on page 2 undefined on input line 
-106.
+[8 <./heat_analysis_optimized/analysis/Figure3_SHAPImportance_Fixed.png>]
+<heat_analysis_optimized/analysis/Figure5_GenderDifferences_Fixed.png, id=242, 
+978.054pt x 616.4631pt>
+File: heat_analysis_optimized/analysis/Figure5_GenderDifferences_Fixed.png Grap
+hic file (type png)
+<use heat_analysis_optimized/analysis/Figure5_GenderDifferences_Fixed.png>
+Package pdftex.def Info: heat_analysis_optimized/analysis/Figure5_GenderDiffere
+nces_Fixed.png  used on input line 313.
+(pdftex.def)             Requested size: 409.71692pt x 258.24487pt.
 
 
-Package natbib Warning: Citation `Periard2021' on page 2 undefined on input lin
-e 106.
+[9 <./heat_analysis_optimized/analysis/Figure4_VulnerabilityDistribution.png>]
 
+[10 <./heat_analysis_optimized/analysis/Figure5_GenderDifferences_Fixed.png>]
 
-Package natbib Warning: Citation `Kovats2008' on page 2 undefined on input line
- 106.
+[11]
 
+[12]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 38
+6.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Overfull \hbox (16.87608pt too wide) in paragraph at lines 386--387
+\T1/ptm/m/n/10.95 De-identified datasets and anal-y-sis code are avail-able at 
+[][]$\T1/pcr/m/n/10.95 https : / / github . com / wrhi-[]heat-[]health$[][]
+ []
 
-Package natbib Warning: Citation `Bunker2016' on page 2 undefined on input line
- 106.
+(./heat_health_biometeorology_final.bbl
 
+[13]
 
-Package natbib Warning: Citation `Lim2018' on page 2 undefined on input line 10
-8.
+[14])
 
-
-Package natbib Warning: Citation `Westwood2021' on page 2 undefined on input li
-ne 108.
-
-
-Package natbib Warning: Citation `Rajkomar2019' on page 2 undefined on input li
-ne 110.
-
-
-Package natbib Warning: Citation `Beam2021' on page 2 undefined on input line 1
-10.
-
-
-Package natbib Warning: Citation `Lundberg2017' on page 2 undefined on input li
-ne 110.
-
-
-Package natbib Warning: Citation `Lundberg2020' on page 2 undefined on input li
-ne 110.
-
-
-Package natbib Warning: Citation `Nori2019' on page 2 undefined on input line 1
-10.
-
-
-Package natbib Warning: Citation `Chen2022' on page 2 undefined on input line 1
-10.
-
-
-! LaTeX Error: Unicode character ≥ (U+2265)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.118 ... selected based on data completeness (≥
-                                                  3 biomarkers per participa...
-
-? 
-! Emergency stop.
- ...                                              
-                                                  
-l.118 ... selected based on data completeness (≥
-                                                  3 biomarkers per participa...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
- 
+[15] (./heat_health_biometeorology_final.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+Package rerunfilecheck Info: File `heat_health_biometeorology_final.out' has no
+t changed.
+(rerunfilecheck)             Checksum: DE64756D7D23329B3E3F586431148E5D;5350.
+ ) 
 Here is how much of TeX's memory you used:
- 13933 strings out of 473190
- 217718 string characters out of 5715800
- 645887 words of memory out of 5000000
- 36988 multiletter control sequences out of 15000+600000
- 599208 words of font info for 88 fonts, out of 8000000 for 9000
+ 14236 strings out of 473190
+ 224798 string characters out of 5715800
+ 650400 words of memory out of 5000000
+ 37194 multiletter control sequences out of 15000+600000
+ 605317 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,79p,2306b,459s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 75i,12n,79p,2306b,608s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
+usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/l
+ocal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
+l/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
+/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive
+/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2025/t
+exmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/
+fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type
+1/urw/times/utmri8a.pfb>
+Output written on heat_health_biometeorology_final.pdf (15 pages, 1742582 bytes
+).
+PDF statistics:
+ 369 PDF objects out of 1000 (max. 8388607)
+ 314 compressed objects within 4 object streams
+ 82 named destinations out of 1000 (max. 500000)
+ 226 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: heat_health_biometeorology_final.aux
+The style file: abbrvnat.bst
+Illegal, another \bibstyle command---line 51 of file heat_health_biometeorology_final.aux
+ : \bibstyle
+ :          {abbrvnat}
+I'm skipping whatever remains of this command
+Database file #1: biometeorology_references.bib
+You've used 27 entries,
+            2773 wiz_defined-function locations,
+            801 strings with 11903 characters,
+and the built_in function-call counts, 17352 in all, are:
+= -- 1425
+> -- 1551
+< -- 4
++ -- 519
+- -- 492
+* -- 1688
+:= -- 2796
+add.period$ -- 81
+call.type$ -- 27
+change.case$ -- 239
+chr.to.int$ -- 27
+cite$ -- 54
+duplicate$ -- 560
+empty$ -- 1062
+format.name$ -- 527
+if$ -- 3460
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 27
+newline$ -- 143
+num.names$ -- 108
+pop$ -- 430
+preamble$ -- 1
+purify$ -- 212
+quote$ -- 0
+skip$ -- 497
+stack$ -- 0
+substring$ -- 618
+swap$ -- 27
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 297
+warning$ -- 0
+while$ -- 123
+width$ -- 0
+write$ -- 355
+(There was 1 error message)
