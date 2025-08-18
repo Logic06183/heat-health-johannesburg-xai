@@ -71,8 +71,7 @@ Sibusisiwe Makhanya\textsuperscript{5},
 Etienne Vos\textsuperscript{5}, 
 Stanley Luchters\textsuperscript{6,7}, 
 Prestige Tatenda Makanga\textsuperscript{6,8}, 
-Gu\'{e}ladio Ciss\'{e}\textsuperscript{4}\\
-\vspace{0.3em}
+Gu\'{e}ladio Ciss\'{e}\textsuperscript{4}\\[1em]
 \small
 \textsuperscript{1}Wits Planetary Health Research, University of the Witwatersrand, Johannesburg, South Africa\\
 \textsuperscript{2}Climate System Analysis Group, University of Cape Town, South Africa\\
@@ -81,8 +80,7 @@ Gu\'{e}ladio Ciss\'{e}\textsuperscript{4}\\
 \textsuperscript{5}IBM Research---Africa, Johannesburg, South Africa\\
 \textsuperscript{6}Centre for Sexual Health and HIV \& AIDS Research (CeSHHAR), Harare, Zimbabwe\\
 \textsuperscript{7}Liverpool School of Tropical Medicine, UK\\
-\textsuperscript{8}Midlands State University, Gweru, Zimbabwe\\
-\vspace{0.3em}
+\textsuperscript{8}Midlands State University, Gweru, Zimbabwe\\[0.5em]
 \textsuperscript{*}Corresponding author: Craig Parker (craig.parker@witsphr.org)
 }
 
@@ -257,7 +255,7 @@ Cross-validation strategies confirmed model robustness. Temporal validation (tra
 
 \subsection{Temporal Dynamics of Heat-Health Relationships}
 
-Systematic evaluation of exposure windows revealed distinct temporal signatures for different health outcomes (Figure 1). Glucose metabolism showed monotonic improvement in prediction accuracy with longer exposure windows, plateauing at 21 days ($R^2$ = 0.611) before declining slightly. This pattern suggests cumulative metabolic stress accumulation over approximately three weeks, consistent with the time course of glycaemic markers like glycated albumin.
+Building on these predictive capabilities, systematic evaluation of exposure windows revealed distinct temporal signatures for different health outcomes (Figure 2). Glucose metabolism showed monotonic improvement in prediction accuracy with longer exposure windows, plateauing at 21 days ($R^2$ = 0.611) before declining slightly. This pattern suggests cumulative metabolic stress accumulation over approximately three weeks, consistent with the time course of glycaemic markers like glycated albumin.
 
 Cardiovascular parameters exhibited different temporal dynamics. Blood pressure responses peaked at shorter windows (7-14 days for systolic, $R^2$ = 0.115; 14 days for diastolic, $R^2$ = 0.141), aligning with known cardiovascular adaptation timescales including plasma volume expansion and baroreceptor resetting. The divergence between metabolic and cardiovascular temporal patterns suggests distinct physiological mechanisms: acute haemodynamic adjustment versus chronic metabolic dysregulation.
 
@@ -272,7 +270,7 @@ Seasonal stratification revealed amplified heat-health associations during trans
 
 \subsection{Feature Importance and Mechanistic Insights}
 
-SHAP analysis revealed hierarchical feature importance with climate variables dominating but socioeconomic factors providing crucial modification (Figure 2). For glucose prediction, the top ten features by mean absolute SHAP value were: (1) 21-day maximum temperature (0.234); (2) heat vulnerability index (0.156); (3) temperature $\times$ age interaction (0.089); (4) 21-day mean humidity (0.078); (5) income composite (0.067); (6) age (0.054); (7) 21-day temperature range (0.049); (8) housing quality (0.043); (9) temperature $\times$ BMI interaction (0.038); (10) 7-day PM\textsubscript{2.5} (0.035).
+To understand the mechanistic drivers of these temporal patterns, SHAP analysis revealed hierarchical feature importance with climate variables dominating but socioeconomic factors providing crucial modification (Figure 3). For glucose prediction, the top ten features by mean absolute SHAP value were: (1) 21-day maximum temperature (0.234); (2) heat vulnerability index (0.156); (3) temperature $\times$ age interaction (0.089); (4) 21-day mean humidity (0.078); (5) income composite (0.067); (6) age (0.054); (7) 21-day temperature range (0.049); (8) housing quality (0.043); (9) temperature $\times$ BMI interaction (0.038); (10) 7-day PM\textsubscript{2.5} (0.035).
 
 Feature interaction analysis revealed synergistic effects. The temperature $\times$ age interaction showed accelerating impact above age 50, with each decade of age amplifying glucose response by 0.8 mg/dL per \degrees C (interaction SHAP value: 0.089). Similarly, the temperature $\times$ vulnerability index interaction was strongly positive, indicating that socioeconomic disadvantage multiplicatively amplifies heat impacts rather than simply adding to baseline risk.
 
