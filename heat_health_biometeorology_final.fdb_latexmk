@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex heat_health_biometeorology_final"] 1755546066.40477 "heat_health_biometeorology_final.aux" "heat_health_biometeorology_final.bbl" "heat_health_biometeorology_final" 1755546066.49379 2
+["bibtex heat_health_biometeorology_final"] 1755546203.97718 "heat_health_biometeorology_final.aux" "heat_health_biometeorology_final.bbl" "heat_health_biometeorology_final" 1755546204.06792 2
   "./biometeorology_references.bib" 1755546058.4469 11825 922f6a2f5036cc003f641f13ae0e14d5 ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/natbib/abbrvnat.bst" 1233624470 26532 66bed5cc59495faaa3f9ae9af9fa5e42 ""
-  "heat_health_biometeorology_final.aux" 1755546066.1832 12573 7f498a7c7c7b5479b7039125015ae942 "pdflatex"
+  "heat_health_biometeorology_final.aux" 1755546203.74793 12573 7f498a7c7c7b5479b7039125015ae942 "pdflatex"
   (generated)
   "heat_health_biometeorology_final.bbl"
   "heat_health_biometeorology_final.blg"
   (rewritten before read)
-["pdflatex"] 1755546063.3723 "/Users/craig/Downloads/publication/heat_health_biometeorology_final.tex" "heat_health_biometeorology_final.pdf" "heat_health_biometeorology_final" 1755546066.49389 0
-  "/Users/craig/Downloads/publication/heat_health_biometeorology_final.tex" 1755545786.27318 43150 899b1eb556dc7bcaa2dbfa9dd7a7ff0f ""
+["pdflatex"] 1755546200.9693 "/Users/craig/Downloads/publication/heat_health_biometeorology_final.tex" "heat_health_biometeorology_final.pdf" "heat_health_biometeorology_final" 1755546204.06802 0
+  "/Users/craig/Downloads/publication/heat_health_biometeorology_final.tex" 1755546136.90168 43241 e6d33e12dd248177b6d9cf6f4acf8fd7 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm" 1136768653 1292 bd42be2f344128bff6d35d98474adfe3 ""
@@ -146,10 +146,10 @@
   "heat_analysis_optimized/analysis/Figure3_SHAPImportance_Fixed.png" 1754407706.43689 387924 dd27de837868b8af464dce26d5c8cb6e ""
   "heat_analysis_optimized/analysis/Figure4_VulnerabilityDistribution.png" 1754405114 512782 a30f7696a8801e7ee686e531f949aea8 ""
   "heat_analysis_optimized/analysis/Figure5_GenderDifferences_Fixed.png" 1754407706.75437 230253 7db0ed6e1637bc663f7ec2fc926da486 ""
-  "heat_health_biometeorology_final.aux" 1755546066.1832 12573 7f498a7c7c7b5479b7039125015ae942 "pdflatex"
-  "heat_health_biometeorology_final.bbl" 1755546066.49258 9857 048d8d1d1a3fdd8e88398345d1c1a5a3 "bibtex heat_health_biometeorology_final"
-  "heat_health_biometeorology_final.out" 1755546066.18414 5350 de64756d7d23329b3e3f586431148e5d "pdflatex"
-  "heat_health_biometeorology_final.tex" 1755545786.27318 43150 899b1eb556dc7bcaa2dbfa9dd7a7ff0f ""
+  "heat_health_biometeorology_final.aux" 1755546203.74793 12573 7f498a7c7c7b5479b7039125015ae942 "pdflatex"
+  "heat_health_biometeorology_final.bbl" 1755546204.06696 9857 048d8d1d1a3fdd8e88398345d1c1a5a3 "bibtex heat_health_biometeorology_final"
+  "heat_health_biometeorology_final.out" 1755546203.7489 5350 de64756d7d23329b3e3f586431148e5d "pdflatex"
+  "heat_health_biometeorology_final.tex" 1755546136.90168 43241 e6d33e12dd248177b6d9cf6f4acf8fd7 ""
   (generated)
   "heat_health_biometeorology_final.aux"
   "heat_health_biometeorology_final.log"
