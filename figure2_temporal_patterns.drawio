@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="5.0" version="22.1.11" etag="v1" type="device">
+  <diagram name="Temporal Patterns" id="temporal-patterns">
+    <mxGraphModel dx="1200" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- Title -->
+        <mxCell id="title" value="Temporal Patterns of Heat-Health Relationships" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="20" width="400" height="30" as="geometry"/>
+        </mxCell>
+        
+        <!-- Chart Background -->
+        <mxCell id="chart-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="100" y="100" width="1000" height="500" as="geometry"/>
+        </mxCell>
+        
+        <!-- Grid Lines -->
+        <mxCell id="grid-h1" value="" style="endArrow=none;html=1;strokeColor=#e0e0e0;strokeWidth=0.5;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="200" as="sourcePoint"/>
+            <mxPoint x="1100" y="200" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="grid-h2" value="" style="endArrow=none;html=1;strokeColor=#e0e0e0;strokeWidth=0.5;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="300" as="sourcePoint"/>
+            <mxPoint x="1100" y="300" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="grid-h3" value="" style="endArrow=none;html=1;strokeColor=#e0e0e0;strokeWidth=0.5;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="400" as="sourcePoint"/>
+            <mxPoint x="1100" y="400" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="grid-h4" value="" style="endArrow=none;html=1;strokeColor=#e0e0e0;strokeWidth=0.5;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="500" as="sourcePoint"/>
+            <mxPoint x="1100" y="500" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Optimal Range Shading -->
+        <mxCell id="optimal-range" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ff0000;strokeColor=none;opacity=20;" parent="1" vertex="1">
+          <mxGeometry x="280" y="100" width="100" height="500" as="geometry"/>
+        </mxCell>
+        
+        <!-- Optimal Window Line -->
+        <mxCell id="optimal-line" value="" style="endArrow=none;dashed=1;html=1;dashPattern=5 5;strokeColor=#ff0000;strokeWidth=2;opacity=70;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="100" as="sourcePoint"/>
+            <mxPoint x="330" y="600" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Glucose Line Points -->
+        <mxCell id="glucose-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d62728;strokeColor=#d62728;" parent="1" vertex="1">
+          <mxGeometry x="116" y="376" width="8" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="glucose-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d62728;strokeColor=#d62728;" parent="1" vertex="1">
+          <mxGeometry x="176" y="336" width="8" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="glucose-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d62728;strokeColor=#d62728;" parent="1" vertex="1">
+          <mxGeometry x="246" y="296" width="8" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="glucose-4" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d62728;strokeColor=#d62728;" parent="1" vertex="1">
+          <mxGeometry x="326" y="191" width="8" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="glucose-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d62728;strokeColor=#d62728;" parent="1" vertex="1">
+          <mxGeometry x="396" y="176" width="8" height="8" as="geometry"/>
+        </mxCell>
+        
+        <!-- Peak Performance Star -->
+        <mxCell id="peak-star" value="★" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="320" y="180" width="20" height="20" as="geometry"/>
+        </mxCell>
+        
+        <!-- Annotation Box -->
+        <mxCell id="annotation-box" value="Peak performance at 21 days&lt;br&gt;suggests cumulative effects" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="450" y="140" width="200" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Annotation Arrow -->
+        <mxCell id="annotation-arrow" value="" style="endArrow=classic;html=1;strokeColor=#ff0000;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="170" as="sourcePoint"/>
+            <mxPoint x="340" y="195" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- X-axis -->
+        <mxCell id="x-axis" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="600" as="sourcePoint"/>
+            <mxPoint x="1100" y="600" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Y-axis -->
+        <mxCell id="y-axis" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="100" as="sourcePoint"/>
+            <mxPoint x="100" y="600" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- X-axis Label -->
+        <mxCell id="x-label" value="Temperature Exposure Window (Days Prior to Health Measurement)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="400" y="640" width="400" height="30" as="geometry"/>
+        </mxCell>
+        
+        <!-- Y-axis Label -->
+        <mxCell id="y-label" value="R² Score (Model Performance)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="10" y="300" width="200" height="30" as="geometry"/>
+        </mxCell>
+        
+        <!-- X-axis Values -->
+        <mxCell id="x-val-1" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="110" y="610" width="20" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="x-val-3" value="3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="170" y="610" width="20" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="x-val-7" value="7" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="240" y="610" width="20" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="x-val-21" value="21" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="320" y="610" width="20" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="x-val-28" value="28" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="390" y="610" width="20" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="x-val-30" value="30" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="530" y="610" width="20" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="x-val-60" value="60" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="740" y="610" width="20" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="x-val-90" value="90" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="950" y="610" width="20" height="20" as="geometry"/>
+        </mxCell>
+        
+        <!-- Y-axis Values -->
+        <mxCell id="y-val-0" value="0.0" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="60" y="590" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="y-val-1" value="0.1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="60" y="490" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="y-val-2" value="0.2" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="60" y="390" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="y-val-3" value="0.3" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="60" y="290" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="y-val-4" value="0.4" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="60" y="190" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="y-val-5" value="0.5" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="60" y="90" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="y-val-6" value="0.6" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="60" y="90" width="30" height="20" as="geometry"/>
+        </mxCell>
+        
+        <!-- Legend -->
+        <mxCell id="legend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="900" y="120" width="180" height="140" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="legend-glucose" value="Glucose (Primary)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="940" y="130" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-glucose-marker" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d62728;strokeColor=#d62728;" parent="1" vertex="1">
+          <mxGeometry x="915" y="135" width="10" height="10" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="legend-diastolic" value="Diastolic BP" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="940" y="155" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-diastolic-marker" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ff7f0e;strokeColor=#ff7f0e;" parent="1" vertex="1">
+          <mxGeometry x="915" y="160" width="10" height="10" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="legend-systolic" value="Systolic BP" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="940" y="180" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-systolic-marker" value="" style="triangle;whiteSpace=wrap;html=1;fillColor=#2ca02c;strokeColor=#2ca02c;" parent="1" vertex="1">
+          <mxGeometry x="915" y="185" width="10" height="10" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="legend-potassium" value="Potassium" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="940" y="205" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-potassium-marker" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#1f77b4;strokeColor=#1f77b4;" parent="1" vertex="1">
+          <mxGeometry x="915" y="210" width="10" height="10" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="legend-optimal" value="Optimal Window (21 days)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="940" y="230" width="130" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-optimal-line" value="" style="endArrow=none;dashed=1;html=1;dashPattern=5 5;strokeColor=#ff0000;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="240" as="sourcePoint"/>
+            <mxPoint x="930" y="240" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

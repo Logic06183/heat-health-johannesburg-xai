@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; }
+      .label { font-family: Arial, sans-serif; font-size: 12px; }
+      .value { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; }
+      .axis-label { font-family: Arial, sans-serif; font-size: 14px; }
+      .legend-text { font-family: Arial, sans-serif; font-size: 12px; }
+      .units { font-family: Arial, sans-serif; font-size: 11px; font-style: italic; }
+      .significance { font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; }
+      .note { font-family: Arial, sans-serif; font-size: 10px; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="700" fill="white"/>
+  
+  <!-- Title -->
+  <text class="title" x="600" y="30" text-anchor="middle">Gender-Specific Heat-Health Relationships</text>
+  
+  <!-- Units text -->
+  <text class="units" x="100" y="60">Units: mg/dL for glucose &amp; cholesterol, mmHg for BP, mEq/L for potassium</text>
+  
+  <!-- Significance legend -->
+  <text class="note" x="1000" y="60">*** p&lt;0.001, * p&lt;0.05, ns = not significant</text>
+  
+  <!-- Chart background -->
+  <rect x="100" y="80" width="1000" height="500" fill="#fafafa" stroke="#cccccc" stroke-width="1"/>
+  
+  <!-- Grid lines -->
+  <g stroke="#e0e0e0" stroke-width="0.5">
+    <line x1="100" y1="180" x2="1100" y2="180"/>
+    <line x1="100" y1="280" x2="1100" y2="280"/>
+    <line x1="100" y1="380" x2="1100" y2="380"/>
+    <line x1="100" y1="480" x2="1100" y2="480"/>
+  </g>
+  
+  <!-- Grouped bars for each health outcome -->
+  
+  <!-- Glucose -->
+  <g id="glucose-group">
+    <rect x="160" y="380" width="80" height="200" fill="#5B9BD5" opacity="0.8" stroke="black" stroke-width="0.5"/>
+    <rect x="260" y="270" width="80" height="310" fill="#F4B183" opacity="0.8" stroke="black" stroke-width="0.5"/>
+    
+    <!-- Error bars -->
+    <line x1="200" y1="340" x2="200" y2="420" stroke="black" stroke-width="2"/>
+    <line x1="195" y1="340" x2="205" y2="340" stroke="black" stroke-width="2"/>
+    <line x1="195" y1="420" x2="205" y2="420" stroke="black" stroke-width="2"/>
+    
+    <line x1="300" y1="230" x2="300" y2="310" stroke="black" stroke-width="2"/>
+    <line x1="295" y1="230" x2="305" y2="230" stroke="black" stroke-width="2"/>
+    <line x1="295" y1="310" x2="305" y2="310" stroke="black" stroke-width="2"/>
+    
+    <!-- Values -->
+    <text class="value" x="200" y="370" text-anchor="middle">2.1</text>
+    <text class="value" x="300" y="260" text-anchor="middle">3.4</text>
+    
+    <!-- Significance -->
+    <text class="significance" x="250" y="220" text-anchor="middle">***</text>
+    
+    <!-- Label -->
+    <text class="label" x="250" y="610" text-anchor="middle">Glucose</text>
+  </g>
+  
+  <!-- Systolic BP -->
+  <g id="systolic-group">
+    <rect x="380" y="420" width="80" height="160" fill="#5B9BD5" opacity="0.8" stroke="black" stroke-width="0.5"/>
+    <rect x="480" y="460" width="80" height="120" fill="#F4B183" opacity="0.8" stroke="black" stroke-width="0.5"/>
+    
+    <!-- Error bars -->
+    <line x1="420" y1="380" x2="420" y2="460" stroke="black" stroke-width="2"/>
+    <line x1="415" y1="380" x2="425" y2="380" stroke="black" stroke-width="2"/>
+    <line x1="415" y1="460" x2="425" y2="460" stroke="black" stroke-width="2"/>
+    
+    <line x1="520" y1="420" x2="520" y2="500" stroke="black" stroke-width="2"/>
+    <line x1="515" y1="420" x2="525" y2="420" stroke="black" stroke-width="2"/>
+    <line x1="515" y1="500" x2="525" y2="500" stroke="black" stroke-width="2"/>
+    
+    <!-- Values -->
+    <text class="value" x="420" y="410" text-anchor="middle">1.8</text>
+    <text class="value" x="520" y="450" text-anchor="middle">1.3</text>
+    
+    <!-- Significance -->
+    <text class="significance" x="470" y="370" text-anchor="middle">*</text>
+    
+    <!-- Label -->
+    <text class="label" x="470" y="610" text-anchor="middle">Systolic BP</text>
+  </g>
+  
+  <!-- Diastolic BP -->
+  <g id="diastolic-group">
+    <rect x="600" y="480" width="80" height="100" fill="#5B9BD5" opacity="0.8" stroke="black" stroke-width="0.5"/>
+    <rect x="700" y="510" width="80" height="70" fill="#F4B183" opacity="0.8" stroke="black" stroke-width="0.5"/>
+    
+    <!-- Error bars -->
+    <line x1="640" y1="440" x2="640" y2="520" stroke="black" stroke-width="2"/>
+    <line x1="635" y1="440" x2="645" y2="440" stroke="black" stroke-width="2"/>
+    <line x1="635" y1="520" x2="645" y2="520" stroke="black" stroke-width="2"/>
+    
+    <line x1="740" y1="470" x2="740" y2="550" stroke="black" stroke-width="2"/>
+    <line x1="735" y1="470" x2="745" y2="470" stroke="black" stroke-width="2"/>
+    <line x1="735" y1="550" x2="745" y2="550" stroke="black" stroke-width="2"/>
+    
+    <!-- Values -->
+    <text class="value" x="640" y="470" text-anchor="middle">1.2</text>
+    <text class="value" x="740" y="500" text-anchor="middle">0.9</text>
+    
+    <!-- Label -->
+    <text class="label" x="690" y="610" text-anchor="middle">Diastolic BP</text>
+  </g>
+  
+  <!-- Potassium -->
+  <g id="potassium-group">
+    <rect x="820" y="560" width="80" height="20" fill="#5B9BD5" opacity="0.8" stroke="black" stroke-width="0.5"/>
+    <rect x="920" y="560" width="80" height="20" fill="#F4B183" opacity="0.8" stroke="black" stroke-width="0.5"/>
+    
+    <!-- Error bars -->
+    <line x1="860" y1="550" x2="860" y2="570" stroke="black" stroke-width="2"/>
+    <line x1="855" y1="550" x2="865" y2="550" stroke="black" stroke-width="2"/>
+    <line x1="855" y1="570" x2="865" y2="570" stroke="black" stroke-width="2"/>
+    
+    <line x1="960" y1="550" x2="960" y2="570" stroke="black" stroke-width="2"/>
+    <line x1="955" y1="550" x2="965" y2="550" stroke="black" stroke-width="2"/>
+    <line x1="955" y1="570" x2="965" y2="570" stroke="black" stroke-width="2"/>
+    
+    <!-- Values -->
+    <text class="value" x="860" y="545" text-anchor="middle">0.1</text>
+    <text class="value" x="960" y="545" text-anchor="middle">0.1</text>
+    
+    <!-- Label -->
+    <text class="label" x="910" y="610" text-anchor="middle">Potassium</text>
+  </g>
+  
+  <!-- Total Cholesterol -->
+  <g id="cholesterol-group">
+    <rect x="1040" y="520" width="80" height="60" fill="#5B9BD5" opacity="0.8" stroke="black" stroke-width="0.5"/>
+    <rect x="1140" y="540" width="80" height="40" fill="#F4B183" opacity="0.8" stroke="black" stroke-width="0.5"/>
+    
+    <!-- Error bars -->
+    <line x1="1080" y1="480" x2="1080" y2="560" stroke="black" stroke-width="2"/>
+    <line x1="1075" y1="480" x2="1085" y2="480" stroke="black" stroke-width="2"/>
+    <line x1="1075" y1="560" x2="1085" y2="560" stroke="black" stroke-width="2"/>
+    
+    <line x1="1180" y1="500" x2="1180" y2="580" stroke="black" stroke-width="2"/>
+    <line x1="1175" y1="500" x2="1185" y2="500" stroke="black" stroke-width="2"/>
+    <line x1="1175" y1="580" x2="1185" y2="580" stroke="black" stroke-width="2"/>
+    
+    <!-- Values -->
+    <text class="value" x="1080" y="510" text-anchor="middle">0.8</text>
+    <text class="value" x="1180" y="530" text-anchor="middle">0.6</text>
+    
+    <!-- Label -->
+    <text class="label" x="1130" y="610" text-anchor="middle">Total Cholesterol</text>
+  </g>
+  
+  <!-- Y-axis -->
+  <line x1="100" y1="80" x2="100" y2="580" stroke="black" stroke-width="2"/>
+  
+  <!-- Y-axis labels -->
+  <g class="label">
+    <text x="90" y="585" text-anchor="end">0.0</text>
+    <text x="90" y="485" text-anchor="end">0.5</text>
+    <text x="90" y="385" text-anchor="end">1.0</text>
+    <text x="90" y="285" text-anchor="end">1.5</text>
+    <text x="90" y="185" text-anchor="end">2.0</text>
+    <text x="90" y="135" text-anchor="end">2.5</text>
+    <text x="90" y="105" text-anchor="end">3.0</text>
+    <text x="90" y="85" text-anchor="end">4.0</text>
+  </g>
+  
+  <!-- X-axis -->
+  <line x1="100" y1="580" x2="1100" y2="580" stroke="black" stroke-width="2"/>
+  
+  <!-- Axis labels -->
+  <text class="axis-label" x="600" y="650" text-anchor="middle">Health Outcome</text>
+  <text class="axis-label" x="30" y="330" text-anchor="middle" transform="rotate(-90 30 330)">Heat Response (per °C increase in 21-day max temp)</text>
+  
+  <!-- Legend -->
+  <g transform="translate(900, 100)">
+    <rect x="0" y="0" width="150" height="70" fill="white" stroke="black" stroke-width="1" opacity="0.95"/>
+    
+    <rect x="10" y="10" width="20" height="20" fill="#5B9BD5" opacity="0.8"/>
+    <text class="legend-text" x="35" y="25">Male</text>
+    
+    <rect x="10" y="35" width="20" height="20" fill="#F4B183" opacity="0.8"/>
+    <text class="legend-text" x="35" y="50">Female</text>
+  </g>
+</svg>

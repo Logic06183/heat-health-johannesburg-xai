@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; }
+      .label { font-family: Arial, sans-serif; font-size: 12px; }
+      .axis-label { font-family: Arial, sans-serif; font-size: 14px; }
+      .legend-text { font-family: Arial, sans-serif; font-size: 12px; }
+      .annotation { font-family: Arial, sans-serif; font-size: 11px; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="700" fill="white"/>
+  
+  <!-- Title -->
+  <text class="title" x="600" y="30" text-anchor="middle">Temporal Patterns of Heat-Health Relationships</text>
+  
+  <!-- Grid -->
+  <g stroke="#e0e0e0" stroke-width="0.5">
+    <!-- Horizontal grid lines -->
+    <line x1="100" y1="600" x2="1100" y2="600"/>
+    <line x1="100" y1="500" x2="1100" y2="500"/>
+    <line x1="100" y1="400" x2="1100" y2="400"/>
+    <line x1="100" y1="300" x2="1100" y2="300"/>
+    <line x1="100" y1="200" x2="1100" y2="200"/>
+    <line x1="100" y1="100" x2="1100" y2="100"/>
+    
+    <!-- Vertical grid lines -->
+    <line x1="100" y1="100" x2="100" y2="600"/>
+    <line x1="300" y1="100" x2="300" y2="600"/>
+    <line x1="500" y1="100" x2="500" y2="600"/>
+    <line x1="700" y1="100" x2="700" y2="600"/>
+    <line x1="900" y1="100" x2="900" y2="600"/>
+    <line x1="1100" y1="100" x2="1100" y2="600"/>
+  </g>
+  
+  <!-- Optimal range shading -->
+  <rect x="280" y="100" width="100" height="500" fill="red" opacity="0.2"/>
+  
+  <!-- Optimal window line -->
+  <line x1="330" y1="100" x2="330" y2="600" stroke="red" stroke-width="2" stroke-dasharray="5,5" opacity="0.7"/>
+  
+  <!-- Data lines -->
+  <!-- Glucose (Primary) -->
+  <g id="glucose-line">
+    <polyline points="120,380 180,340 250,300 330,195 400,180 470,190 540,210 750,280 960,330" 
+              fill="none" stroke="#d62728" stroke-width="3"/>
+    <!-- Data points -->
+    <circle cx="120" cy="380" r="8" fill="#d62728"/>
+    <circle cx="180" cy="340" r="8" fill="#d62728"/>
+    <circle cx="250" cy="300" r="8" fill="#d62728"/>
+    <circle cx="330" cy="195" r="8" fill="#d62728"/>
+    <circle cx="400" cy="180" r="8" fill="#d62728"/>
+    <circle cx="470" cy="190" r="8" fill="#d62728"/>
+    <circle cx="540" cy="210" r="8" fill="#d62728"/>
+    <circle cx="750" cy="280" r="8" fill="#d62728"/>
+    <circle cx="960" cy="330" r="8" fill="#d62728"/>
+  </g>
+  
+  <!-- Diastolic BP -->
+  <g id="diastolic-line">
+    <polyline points="120,490 180,480 250,465 330,445 400,430 470,435 540,440 750,460 960,475" 
+              fill="none" stroke="#ff7f0e" stroke-width="2"/>
+    <!-- Data points -->
+    <rect x="116" y="486" width="8" height="8" fill="#ff7f0e"/>
+    <rect x="176" y="476" width="8" height="8" fill="#ff7f0e"/>
+    <rect x="246" y="461" width="8" height="8" fill="#ff7f0e"/>
+    <rect x="326" y="441" width="8" height="8" fill="#ff7f0e"/>
+    <rect x="396" y="426" width="8" height="8" fill="#ff7f0e"/>
+    <rect x="466" y="431" width="8" height="8" fill="#ff7f0e"/>
+    <rect x="536" y="436" width="8" height="8" fill="#ff7f0e"/>
+    <rect x="746" y="456" width="8" height="8" fill="#ff7f0e"/>
+    <rect x="956" y="471" width="8" height="8" fill="#ff7f0e"/>
+  </g>
+  
+  <!-- Systolic BP -->
+  <g id="systolic-line">
+    <polyline points="120,510 180,500 250,485 330,470 400,460 470,465 540,470 750,485 960,495" 
+              fill="none" stroke="#2ca02c" stroke-width="2"/>
+    <!-- Data points -->
+    <polygon points="120,505 125,515 115,515" fill="#2ca02c"/>
+    <polygon points="180,495 185,505 175,505" fill="#2ca02c"/>
+    <polygon points="250,480 255,490 245,490" fill="#2ca02c"/>
+    <polygon points="330,465 335,475 325,475" fill="#2ca02c"/>
+    <polygon points="400,455 405,465 395,465" fill="#2ca02c"/>
+    <polygon points="470,460 475,470 465,470" fill="#2ca02c"/>
+    <polygon points="540,465 545,475 535,475" fill="#2ca02c"/>
+    <polygon points="750,480 755,490 745,490" fill="#2ca02c"/>
+    <polygon points="960,490 965,500 955,500" fill="#2ca02c"/>
+  </g>
+  
+  <!-- Potassium -->
+  <g id="potassium-line">
+    <polyline points="120,540 180,530 250,520 330,510 400,500 470,505 540,510 750,525 960,535" 
+              fill="none" stroke="#1f77b4" stroke-width="2"/>
+    <!-- Data points -->
+    <polygon points="120,540 124,536 124,544 116,544 116,536" fill="#1f77b4"/>
+    <polygon points="180,530 184,526 184,534 176,534 176,526" fill="#1f77b4"/>
+    <polygon points="250,520 254,516 254,524 246,524 246,516" fill="#1f77b4"/>
+    <polygon points="330,510 334,506 334,514 326,514 326,506" fill="#1f77b4"/>
+    <polygon points="400,500 404,496 404,504 396,504 396,496" fill="#1f77b4"/>
+    <polygon points="470,505 474,501 474,509 466,509 466,501" fill="#1f77b4"/>
+    <polygon points="540,510 544,506 544,514 536,514 536,506" fill="#1f77b4"/>
+    <polygon points="750,525 754,521 754,529 746,529 746,521" fill="#1f77b4"/>
+    <polygon points="960,535 964,531 964,539 956,539 956,531" fill="#1f77b4"/>
+  </g>
+  
+  <!-- Peak performance star -->
+  <g id="peak-star" transform="translate(330,195)">
+    <polygon points="0,-10 3,-3 10,-2 5,3 6,10 0,6 -6,10 -5,3 -10,-2 -3,-3" fill="red" stroke="red" stroke-width="1"/>
+  </g>
+  
+  <!-- Annotation -->
+  <g id="annotation">
+    <rect x="450" y="140" width="280" height="60" fill="white" stroke="none" opacity="0.9" rx="5"/>
+    <text class="annotation" x="460" y="160">Peak performance at 21 days</text>
+    <text class="annotation" x="460" y="180">suggests cumulative effects</text>
+    <line x1="450" y1="170" x2="340" y2="195" stroke="red" stroke-width="2" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="red"/>
+    </marker>
+  </defs>
+  
+  <!-- Axes -->
+  <line x1="100" y1="600" x2="1100" y2="600" stroke="black" stroke-width="2"/>
+  <line x1="100" y1="100" x2="100" y2="600" stroke="black" stroke-width="2"/>
+  
+  <!-- X-axis labels -->
+  <g class="label">
+    <text x="120" y="620" text-anchor="middle">1</text>
+    <text x="180" y="620" text-anchor="middle">3</text>
+    <text x="250" y="620" text-anchor="middle">7</text>
+    <text x="330" y="620" text-anchor="middle">21</text>
+    <text x="400" y="620" text-anchor="middle">28</text>
+    <text x="540" y="620" text-anchor="middle">30</text>
+    <text x="750" y="620" text-anchor="middle">60</text>
+    <text x="960" y="620" text-anchor="middle">90</text>
+  </g>
+  
+  <!-- Y-axis labels -->
+  <g class="label">
+    <text x="90" y="605" text-anchor="end">0.0</text>
+    <text x="90" y="505" text-anchor="end">0.1</text>
+    <text x="90" y="405" text-anchor="end">0.2</text>
+    <text x="90" y="305" text-anchor="end">0.3</text>
+    <text x="90" y="205" text-anchor="end">0.4</text>
+    <text x="90" y="105" text-anchor="end">0.5</text>
+  </g>
+  
+  <!-- Axis labels -->
+  <text class="axis-label" x="600" y="660" text-anchor="middle">Temperature Exposure Window (Days Prior to Health Measurement)</text>
+  <text class="axis-label" x="30" y="350" text-anchor="middle" transform="rotate(-90 30 350)">R² Score (Model Performance)</text>
+  
+  <!-- Legend -->
+  <g id="legend" transform="translate(900,120)">
+    <rect x="0" y="0" width="180" height="120" fill="white" stroke="black" stroke-width="1" opacity="0.9"/>
+    
+    <line x1="10" y1="20" x2="30" y2="20" stroke="#d62728" stroke-width="3"/>
+    <circle cx="20" cy="20" r="4" fill="#d62728"/>
+    <text class="legend-text" x="35" y="25">Glucose (Primary)</text>
+    
+    <line x1="10" y1="40" x2="30" y2="40" stroke="#ff7f0e" stroke-width="2"/>
+    <rect x="16" y="36" width="8" height="8" fill="#ff7f0e"/>
+    <text class="legend-text" x="35" y="45">Diastolic BP</text>
+    
+    <line x1="10" y1="60" x2="30" y2="60" stroke="#2ca02c" stroke-width="2"/>
+    <polygon points="20,55 25,65 15,65" fill="#2ca02c"/>
+    <text class="legend-text" x="35" y="65">Systolic BP</text>
+    
+    <line x1="10" y1="80" x2="30" y2="80" stroke="#1f77b4" stroke-width="2"/>
+    <polygon points="20,80 24,76 24,84 16,84 16,76" fill="#1f77b4"/>
+    <text class="legend-text" x="35" y="85">Potassium</text>
+    
+    <line x1="10" y1="100" x2="30" y2="100" stroke="red" stroke-width="2" stroke-dasharray="5,5"/>
+    <text class="legend-text" x="35" y="105">Optimal Window</text>
+  </g>
+</svg>
