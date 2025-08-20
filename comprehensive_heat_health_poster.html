@@ -272,61 +272,98 @@
     <div class="poster">
         <!-- Header Section -->
         <div class="header">
-            <h1 class="main-title">Heat-Health Vulnerability: A Comprehensive Analysis Using Machine Learning and SHAP</h1>
-            <p class="subtitle">Explainable AI Reveals Novel Heat-Health-Socioeconomic Interactions in African Urban Contexts</p>
+            <h1 class="main-title">Explainable AI for Heat-Health-Socioeconomic Interactions in Johannesburg</h1>
+            <p class="subtitle">Using Machine Learning and SHAP to Identify Vulnerable Populations and Predict Heat-Health Outcomes</p>
             <p class="authors">Authors: Research Team | Principal Investigator: [Name]</p>
             <p class="institution">University of the Witwatersrand, Johannesburg | Climate and Health Research Group</p>
         </div>
 
-        <!-- Research Overview and Methods -->
-        <div class="content-grid">
-            <div class="section methods">
-                <h2>🔬 Methods Overview</h2>
-                <div class="stats-grid">
-                    <div class="stat-box">
-                        <span class="stat-number">2,334</span>
-                        <span class="stat-label">Participants</span>
+        <!-- Introduction and Background -->
+        <div class="section" style="background: #f0f8ff; border-left-color: #0066cc; margin-bottom: 30px;">
+            <h2>📍 Background & Research Gap</h2>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                <div>
+                    <h3>The Challenge</h3>
+                    <ul>
+                        <li><strong>Climate-Health Crisis:</strong> African cities face unprecedented heat exposure with limited adaptation resources</li>
+                        <li><strong>Knowledge Gap:</strong> Heat-health relationships poorly understood in African contexts with unique vulnerabilities</li>
+                        <li><strong>Methodological Limitation:</strong> Traditional epidemiology cannot capture complex, non-linear interactions</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Our Innovation</h3>
+                    <ul>
+                        <li><strong>First-of-kind:</strong> Comprehensive XAI analysis for African urban heat-health dynamics</li>
+                        <li><strong>Multi-scale Integration:</strong> Links climate, health biomarkers, and socioeconomic factors</li>
+                        <li><strong>Explainable AI:</strong> SHAP reveals mechanistic pathways, not just correlations</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Methodology Flow -->
+        <div class="section methods" style="margin-bottom: 30px;">
+            <h2>🔬 Methodological Approach</h2>
+            
+            <!-- Visual Flow Diagram -->
+            <div style="background: white; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+                <h3 style="text-align: center; color: #28a745;">Research Pipeline</h3>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin: 20px 0;">
+                    <div style="text-align: center; flex: 1;">
+                        <div style="background: #e8f5e8; padding: 15px; border-radius: 8px; border: 2px solid #28a745;">
+                            <strong>1. Data Integration</strong><br>
+                            <span style="font-size: 12px;">2,334 participants<br>178 features<br>8-year period</span>
+                        </div>
                     </div>
-                    <div class="stat-box">
-                        <span class="stat-number">178</span>
-                        <span class="stat-label">Features</span>
+                    <div style="flex: 0.5; text-align: center;">→</div>
+                    <div style="text-align: center; flex: 1;">
+                        <div style="background: #fff3cd; padding: 15px; border-radius: 8px; border: 2px solid #ffc107;">
+                            <strong>2. Feature Engineering</strong><br>
+                            <span style="font-size: 12px;">Temporal lags (1-90 days)<br>Interaction terms<br>SE indices</span>
+                        </div>
                     </div>
-                    <div class="stat-box">
-                        <span class="stat-number">19</span>
-                        <span class="stat-label">Biomarkers</span>
+                    <div style="flex: 0.5; text-align: center;">→</div>
+                    <div style="text-align: center; flex: 1;">
+                        <div style="background: #cfe2ff; padding: 15px; border-radius: 8px; border: 2px solid #0d6efd;">
+                            <strong>3. ML Modeling</strong><br>
+                            <span style="font-size: 12px;">Random Forest<br>XGBoost<br>Gradient Boosting</span>
+                        </div>
                     </div>
-                    <div class="stat-box">
-                        <span class="stat-number">8</span>
-                        <span class="stat-label">Years Data</span>
+                    <div style="flex: 0.5; text-align: center;">→</div>
+                    <div style="text-align: center; flex: 1;">
+                        <div style="background: #f8d7da; padding: 15px; border-radius: 8px; border: 2px solid #dc3545;">
+                            <strong>4. XAI Analysis</strong><br>
+                            <span style="font-size: 12px;">SHAP values<br>Feature importance<br>Interaction effects</span>
+                        </div>
                     </div>
                 </div>
-                
-                <ul class="methodology-list">
-                    <li><strong>Multi-Domain Integration:</strong> Climate (ERA5, WRF, MODIS), Health (19 biomarkers), Socio-economic (GCRO surveys)</li>
-                    <li><strong>Machine Learning:</strong> Random Forest, XGBoost, Gradient Boosting with hyperparameter optimization</li>
-                    <li><strong>Explainable AI:</strong> SHAP (SHapley Additive exPlanations) for feature importance and model interpretability</li>
-                    <li><strong>Temporal Analysis:</strong> Lag effects from 1-90 days, optimal 21-day windows identified</li>
-                    <li><strong>Interaction Effects:</strong> Temperature × Age, Temperature × BMI, Climate × SE status</li>
-                    <li><strong>Vulnerability Assessment:</strong> Composite SE indices, heat vulnerability mapping</li>
-                </ul>
             </div>
 
-            <div class="section">
-                <h2>🎯 Study Objectives</h2>
-                <h3>Primary Aim</h3>
-                <p>Develop explainable AI models to quantify heat-health-socioeconomic interactions and identify vulnerable populations in African urban contexts.</p>
-                
-                <h3>Specific Objectives</h3>
-                <ul>
-                    <li>Quantify climate sensitivity across multiple health biomarkers</li>
-                    <li>Identify optimal temporal windows for heat-health relationships</li>
-                    <li>Map socio-economic amplification of heat vulnerability</li>
-                    <li>Develop predictive models for heat-health early warning systems</li>
-                    <li>Generate actionable insights for climate adaptation policy</li>
-                </ul>
-
-                <h3>Innovation</h3>
-                <p>First comprehensive XAI analysis integrating climate, health, and socio-economic data at scale in African context, providing mechanistic insights into heat vulnerability pathways.</p>
+            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px;">
+                <div>
+                    <h4>Data Sources</h4>
+                    <ul style="font-size: 13px;">
+                        <li><strong>Climate:</strong> ERA5, WRF, MODIS</li>
+                        <li><strong>Health:</strong> 19 biomarkers (glucose, BP, cholesterol, etc.)</li>
+                        <li><strong>Socioeconomic:</strong> GCRO surveys, census data</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Analytical Methods</h4>
+                    <ul style="font-size: 13px;">
+                        <li><strong>Cross-validation:</strong> 5-fold stratified</li>
+                        <li><strong>Hyperparameter tuning:</strong> Bayesian optimization</li>
+                        <li><strong>Model ensemble:</strong> Weighted averaging</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Key Innovations</h4>
+                    <ul style="font-size: 13px;">
+                        <li><strong>21-day discovery:</strong> Optimal lag window</li>
+                        <li><strong>SHAP interpretation:</strong> Mechanistic insights</li>
+                        <li><strong>SE amplification:</strong> 650× vulnerability range</li>
+                    </ul>
+                </div>
             </div>
         </div>
 
@@ -562,9 +599,9 @@
                 </div>
                 
                 <div class="finding-item">
-                    <h4>Population Scale</h4>
-                    <span class="highlight-number">2,334</span>
-                    <p>Participants across multiple African cohorts with 178 features, enabling robust statistical inference and generalizability</p>
+                    <h4>Interaction Effects</h4>
+                    <span class="highlight-number">3-way</span>
+                    <p>Temperature × Age × SE status interactions reveal compound vulnerabilities requiring multi-dimensional interventions</p>
                 </div>
                 
                 <div class="finding-item">
@@ -578,44 +615,44 @@
         <!-- Bottom Sections -->
         <div class="content-grid">
             <div class="section conclusions">
-                <h2>💡 Conclusions</h2>
-                <h3>Primary Breakthroughs</h3>
+                <h2>💡 Key Findings & Contributions</h2>
+                <h3>Methodological Contributions</h3>
                 <ul>
-                    <li><strong>Glucose as Heat Biomarker:</strong> 61% predictive accuracy enables glucose monitoring for heat vulnerability assessment</li>
-                    <li><strong>21-Day Critical Window:</strong> Cumulative heat exposure more important than acute peaks for health impacts</li>
-                    <li><strong>SE Amplification Mechanisms:</strong> Housing quality, income, health access create compound vulnerability</li>
-                    <li><strong>Actionable Risk Stratification:</strong> Models enable targeted interventions for highest-risk populations</li>
+                    <li><strong>Novel XAI Framework:</strong> First application of SHAP to African climate-health research at population scale</li>
+                    <li><strong>Multi-scale Integration:</strong> Successfully linked climate (ERA5/WRF/MODIS) with health biomarkers</li>
+                    <li><strong>Temporal Discovery:</strong> Identified 21-day lag as optimal predictive window through systematic analysis</li>
+                    <li><strong>Interpretable Models:</strong> R²=0.611 for glucose with clear mechanistic explanations</li>
                 </ul>
                 
-                <h3>Clinical Translation</h3>
+                <h3>Scientific Discoveries</h3>
                 <ul>
-                    <li>Heat-health early warning systems using glucose monitoring</li>
-                    <li>Individual risk profiling for precision heat health protection</li>
-                    <li>Healthcare resource allocation during heat events</li>
-                    <li>Medication adjustment protocols for heat-sensitive patients</li>
+                    <li><strong>Glucose as Primary Indicator:</strong> 61% variance explained by climate + SE factors</li>
+                    <li><strong>SE Amplification:</strong> 650× vulnerability range demonstrates inequality impact</li>
+                    <li><strong>Gender-Specific Patterns:</strong> Differential heat responses requiring targeted interventions</li>
+                    <li><strong>Cumulative vs Acute:</strong> 21-day effects stronger than immediate temperature impacts</li>
                 </ul>
             </div>
 
             <div class="section implications">
-                <h2>🌍 Public Health Implications</h2>
-                <h3>Policy Recommendations</h3>
+                <h2>🌍 Implications & Future Directions</h2>
+                <h3>Immediate Applications</h3>
                 <ul>
-                    <li><strong>Heat-Health Surveillance:</strong> Implement glucose-based early warning systems in vulnerable communities</li>
-                    <li><strong>Urban Planning:</strong> Prioritize cooling infrastructure in high SE vulnerability areas</li>
-                    <li><strong>Healthcare Adaptation:</strong> Prepare health systems for increased metabolic complications during heat events</li>
-                    <li><strong>Targeted Interventions:</strong> Design SE-specific heat protection programs</li>
+                    <li><strong>Early Warning Systems:</strong> 21-day forecasting enables proactive health interventions</li>
+                    <li><strong>Risk Stratification:</strong> SHAP-based vulnerability scoring for resource allocation</li>
+                    <li><strong>Clinical Protocols:</strong> Glucose monitoring as heat stress indicator in primary care</li>
+                    <li><strong>Urban Planning:</strong> Evidence-based targeting of cooling interventions</li>
                 </ul>
                 
-                <h3>Research Priorities</h3>
+                <h3>Methodological Impact</h3>
                 <ul>
-                    <li>Mechanistic studies of heat-glucose metabolism pathways</li>
-                    <li>Longitudinal cohorts tracking heat adaptation over time</li>
-                    <li>Multi-city replication for generalizability assessment</li>
-                    <li>Real-time monitoring systems for operational deployment</li>
+                    <li><strong>Reproducible Framework:</strong> Open-source XAI pipeline for climate-health research</li>
+                    <li><strong>Scalable Approach:</strong> Applicable to other African cities with similar data</li>
+                    <li><strong>Interpretability Standard:</strong> SHAP analysis template for health-climate studies</li>
+                    <li><strong>Data Integration Protocol:</strong> Multi-source linkage methodology documented</li>
                 </ul>
 
-                <h3>Global Relevance</h3>
-                <p>Methodology transferable to other African urban contexts and climate-vulnerable regions worldwide, providing evidence base for climate health adaptation.</p>
+                <h3>Next Steps</h3>
+                <p><strong>Validation:</strong> Multi-city replication | <strong>Implementation:</strong> Pilot early warning system | <strong>Extension:</strong> Real-time monitoring integration</p>
             </div>
         </div>
 

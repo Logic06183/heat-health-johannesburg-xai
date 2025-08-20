@@ -1,0 +1,48 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# Browser automation temp files
+.playwright-mcp/
+screenshots/
+playwright-temp/
+
+# Temporary HTML files for testing
+*_temp.html
+*_test.html
+heat_health_poster_svg.html
+
+# Backup files
+*~
+*.bak
+*.orig
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# R files
+.Rhistory
+.RData
+.Ruserdata
