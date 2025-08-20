@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.15)  18 AUG 2025 21:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.15)  19 AUG 2025 08:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -658,97 +658,116 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 al/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}]
 
 [2]
-
-[3]
-
-[4]
-Overfull \hbox (36.59105pt too wide) in paragraph at lines 196--221
- [][] 
+Overfull \hbox (8.37883pt too wide) in paragraph at lines 139--140
+[]\T1/ptm/b/n/10.95 Site-Specific Ex-po-sure As-sess-ment: \T1/ptm/m/n/10.95 Ea
+ch par-tic-i-pant's res-i-den-tial ad-dress was geocoded and matched
  []
 
 
 
+[3]
+Overfull \hbox (2.56555pt too wide) in paragraph at lines 177--178
+[]\T1/ptm/b/n/10.95 Heat Vul-ner-a-bil-ity In-dex De-vel-op-ment: \T1/ptm/m/n/1
+0.95 We de-vel-oped a com-pos-ite heat vul-ner-a-bil-ity in-dex through
+ []
+
+
+
+[4]
+Overfull \hbox (36.59105pt too wide) in paragraph at lines 218--243
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
 [5]
-<heat_analysis_optimized/analysis/Figure1_ModelPerformance.png, id=218, 1000.21
+<heat_analysis_optimized/analysis/Figure1_ModelPerformance.png, id=215, 1000.21
 68pt x 422.0568pt>
 File: heat_analysis_optimized/analysis/Figure1_ModelPerformance.png Graphic fil
 e (type png)
 <use heat_analysis_optimized/analysis/Figure1_ModelPerformance.png>
 Package pdftex.def Info: heat_analysis_optimized/analysis/Figure1_ModelPerforma
-nce.png  used on input line 250.
+nce.png  used on input line 272.
 (pdftex.def)             Requested size: 409.71692pt x 172.88983pt.
-<heat_analysis_optimized/analysis/Figure2_TemporalPatterns_Fixed.png, id=220, 9
+
+
+[6]
+<heat_analysis_optimized/analysis/Figure2_TemporalPatterns_Fixed.png, id=223, 9
 65.5272pt x 616.9449pt>
 File: heat_analysis_optimized/analysis/Figure2_TemporalPatterns_Fixed.png Graph
 ic file (type png)
 <use heat_analysis_optimized/analysis/Figure2_TemporalPatterns_Fixed.png>
 Package pdftex.def Info: heat_analysis_optimized/analysis/Figure2_TemporalPatte
-rns_Fixed.png  used on input line 265.
+rns_Fixed.png  used on input line 287.
 (pdftex.def)             Requested size: 409.71692pt x 261.79802pt.
 
 
-[6 <./heat_analysis_optimized/analysis/Figure1_ModelPerformance.png>]
-Overfull \hbox (5.30792pt too wide) in paragraph at lines 276--277
+[7 <./heat_analysis_optimized/analysis/Figure1_ModelPerformance.png>]
+Overfull \hbox (5.30792pt too wide) in paragraph at lines 298--299
 \T1/ptm/m/n/10.95 phys-i-o-log-i-cal com-pen-sa-tion mech-a-nisms be-come over-
 whelmed be-yond spe-cific ther-mal thresh-olds. Hous-
  []
 
-<heat_analysis_optimized/analysis/Figure3_SHAPImportance_Fixed.png, id=227, 977
+<heat_analysis_optimized/analysis/Figure3_SHAPImportance_Fixed.png, id=231, 977
 .8131pt x 761.244pt>
 File: heat_analysis_optimized/analysis/Figure3_SHAPImportance_Fixed.png Graphic
  file (type png)
 <use heat_analysis_optimized/analysis/Figure3_SHAPImportance_Fixed.png>
 Package pdftex.def Info: heat_analysis_optimized/analysis/Figure3_SHAPImportanc
-e_Fixed.png  used on input line 280.
+e_Fixed.png  used on input line 302.
 (pdftex.def)             Requested size: 409.71692pt x 318.9769pt.
 
 
-[7 <./heat_analysis_optimized/analysis/Figure2_TemporalPatterns_Fixed.png>]
-<heat_analysis_optimized/analysis/Figure4_VulnerabilityDistribution.png, id=235
+[8 <./heat_analysis_optimized/analysis/Figure2_TemporalPatterns_Fixed.png>]
+<heat_analysis_optimized/analysis/Figure4_VulnerabilityDistribution.png, id=238
 , 1071.2823pt x 855.6768pt>
 File: heat_analysis_optimized/analysis/Figure4_VulnerabilityDistribution.png Gr
 aphic file (type png)
 <use heat_analysis_optimized/analysis/Figure4_VulnerabilityDistribution.png>
 Package pdftex.def Info: heat_analysis_optimized/analysis/Figure4_Vulnerability
-Distribution.png  used on input line 295.
+Distribution.png  used on input line 317.
 (pdftex.def)             Requested size: 409.71692pt x 327.26266pt.
 
 
-[8 <./heat_analysis_optimized/analysis/Figure3_SHAPImportance_Fixed.png>]
-<heat_analysis_optimized/analysis/Figure5_GenderDifferences_Fixed.png, id=242, 
+[9 <./heat_analysis_optimized/analysis/Figure3_SHAPImportance_Fixed.png>]
+<heat_analysis_optimized/analysis/Figure5_GenderDifferences_Fixed.png, id=245, 
 978.054pt x 616.4631pt>
 File: heat_analysis_optimized/analysis/Figure5_GenderDifferences_Fixed.png Grap
 hic file (type png)
 <use heat_analysis_optimized/analysis/Figure5_GenderDifferences_Fixed.png>
 Package pdftex.def Info: heat_analysis_optimized/analysis/Figure5_GenderDiffere
-nces_Fixed.png  used on input line 310.
+nces_Fixed.png  used on input line 332.
 (pdftex.def)             Requested size: 409.71692pt x 258.24487pt.
 
 
-[9 <./heat_analysis_optimized/analysis/Figure4_VulnerabilityDistribution.png>]
+[10 <./heat_analysis_optimized/analysis/Figure4_VulnerabilityDistribution.png>]
 
-[10 <./heat_analysis_optimized/analysis/Figure5_GenderDifferences_Fixed.png>]
 
-[11]
+[11 <./heat_analysis_optimized/analysis/Figure5_GenderDifferences_Fixed.png>]
 
 [12]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 38
-3.
+
+[13]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 40
+5.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Overfull \hbox (16.87608pt too wide) in paragraph at lines 383--384
+Overfull \hbox (16.87608pt too wide) in paragraph at lines 405--406
 \T1/ptm/m/n/10.95 De-identified datasets and anal-y-sis code are avail-able at 
 [][]$\T1/pcr/m/n/10.95 https : / / github . com / wrhi-[]heat-[]health$[][]
  []
 
 (./heat_health_biometeorology_final.bbl
 
-[13]
+[14]
 
-[14])
+[15])
 
-[15] (./heat_health_biometeorology_final.aux)
+[16] (./heat_health_biometeorology_final.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -758,13 +777,13 @@ t changed.
 (rerunfilecheck)             Checksum: DE64756D7D23329B3E3F586431148E5D;5350.
  ) 
 Here is how much of TeX's memory you used:
- 14236 strings out of 473190
- 224798 string characters out of 5715800
- 650375 words of memory out of 5000000
+ 14237 strings out of 473190
+ 224805 string characters out of 5715800
+ 650376 words of memory out of 5000000
  37194 multiletter control sequences out of 15000+600000
  605317 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,2306b,608s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,79p,2306b,610s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
@@ -777,11 +796,11 @@ l/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 exmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/
 fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type
 1/urw/times/utmri8a.pfb>
-Output written on heat_health_biometeorology_final.pdf (15 pages, 1742668 bytes
+Output written on heat_health_biometeorology_final.pdf (16 pages, 1746855 bytes
 ).
 PDF statistics:
- 369 PDF objects out of 1000 (max. 8388607)
- 314 compressed objects within 4 object streams
- 82 named destinations out of 1000 (max. 500000)
+ 371 PDF objects out of 1000 (max. 8388607)
+ 315 compressed objects within 4 object streams
+ 83 named destinations out of 1000 (max. 500000)
  226 words of extra memory for PDF output out of 10000 (max. 10000000)
 
