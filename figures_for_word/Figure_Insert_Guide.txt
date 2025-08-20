@@ -1,0 +1,30 @@
+QUICK FIGURE INSERTION GUIDE
+=============================
+
+For inserting figures into Word document:
+
+1. Figure1_ModelPerformance.png
+   → Insert after: "XGBoost consistently achieved the highest predictive accuracy..."
+   → Section: 3.2 Model Performance and Predictability
+
+2. Figure2_TemporalPatterns_Fixed.png
+   → Insert after: "...optimal exposure windows that best predict health impacts"
+   → Section: 3.3 Temporal Dynamics
+
+3. Figure3_SHAPImportance_Fixed.png
+   → Insert after: "...housing quality (42% contribution), income levels (31%)..."
+   → Section: 3.4 Feature Importance
+
+4. Figure4_VulnerabilityDistribution.png
+   → Insert after: "...650-fold range in predicted health impacts..."
+   → Section: 3.5 Socioeconomic Amplification
+
+5. Figure5_GenderDifferences_Fixed.png
+   → Insert after: "Women demonstrated significantly higher heat sensitivity..."
+   → Section: 3.6 Gender-Specific Responses
+
+WORD TIPS:
+- Use Insert > Pictures > This Device
+- Set text wrapping to "In line with text" for academic papers
+- Ensure figure numbering is sequential (1, 2, 3, 4, 5)
+- Double-check that captions appear below each figure
